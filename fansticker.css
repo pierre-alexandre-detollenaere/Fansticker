@@ -28,6 +28,14 @@ header p {
     font-weight: bolder;
 }
 
+.container {
+    background-image: url("\kobu-agency-qj15uNotnH0-unsplash.jpg");
+    background-position-y: 90%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;
+}
+
 .bouton {
     color: #ff7f15;
     text-decoration: none;
@@ -54,14 +62,6 @@ nav a {
     text-decoration: none;
     margin-left: 1.2rem;
     color: #ff7f15;
-}
-
-.bg-image{
-    background-image: url(fansticker/kobu-agency-qj15uNotnH0-unsplash.jpg);
-    background-position-y: 90%;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: 100%;
 }
 
 main {
