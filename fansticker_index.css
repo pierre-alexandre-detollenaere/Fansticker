@@ -1,0 +1,151 @@
+/*========= Body / Header ==========*/
+
+header img {
+    width: 15%;
+}
+
+header {
+    display: flex;
+    box-sizing: border-box;
+}
+
+header p {
+    display: flex;
+    justify-content: flex-end;
+    margin-left: 1.2rem;
+    margin-top: 0rem;
+    box-sizing:border-box;
+    background-color: #fbac80;
+}
+
+#logo {
+    width: 100%
+}
+
+/*#slogan {
+    font-size: 1rem;
+    justify-content: flex-start;
+    box-sizing: border-box;
+    color: lightgrey;
+    font-weight: bolder;
+}*/
+
+.filigrane {
+    background-image: url("./images/logo_transparence_50.png");
+    background-position: center;
+    background-position-y: 60%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 50%;
+}
+
+.bouton {
+    color: #000000;
+    text-decoration: none;
+    background-color: #fbac80;
+    margin-top: 1rem;
+    margin-right: 3rem;
+    font-weight: bolder;
+}
+
+.bouton:hover {
+    color: #000000;
+    font-size: 1.3rem;
+    font-weight: bolder;
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+    justify-content:space-around;
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-top: 1.5rem;
+    margin-right: 3.5rem;
+    padding-left: 0;
+    background-color: #fbac80;
+}
+
+nav a {
+    display: flex;
+    text-decoration: none;
+    margin-left: 1.2rem;
+    color: #000000;
+}
+
+main {
+    display: flex;
+}
+
+/*========= Body / main ==========*/
+
+.dimension {
+    content: "";
+    display:"block";
+    margin-left: 700px;
+}
+
+.color_carousel {
+    color: #c7650ad0;
+    font-size: 1.4rem;
+}
+
+/*========= Footer ==========*/
+
+footer {
+    display:flex;
+    align-items: flex-end;
+    position: relative;
+	left: 0;
+	right: 0;
+	bottom: 0;
+    white-space: normal;
+    padding: 0 12px 24px 12px;
+}
+
+footer ul {
+ display: flex;
+ list-style-type: none;
+ justify-content: space-around;
+ font-size: 1rem;
+ margin: 0 8px 0 8px;
+ padding: 1.2rem;
+ color: #000000;
+ background-color: #fbac80;
+}
+
+footer h3 {
+    font-size: 1.3rem;
+}
+
+.lien {
+    color: #000000;
+    text-decoration: none;
+}
+
+li a:hover {
+    font-display: block;
+    color: #000000;
+    font-size: 1.1rem;
+    font-weight: bolder;
+}
+
+.paiement {
+    width:25%;
+}
+
+.reseau1 {
+    width:13%;
+}
+
+.reseau2 {
+    width:40%;
+}
+
+/*color: #FFDCBA; beige crème
+ background-color: #ff7f15; orange
+ #000000; noir
+ orange clair: #ffa142;
+ bleu: #127999;
+ */
+
