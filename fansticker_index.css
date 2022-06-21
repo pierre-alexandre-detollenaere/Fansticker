@@ -7,6 +7,10 @@ header img {
 header {
     display: flex;
     box-sizing: border-box;
+    position: fixed !important;
+    top : 0;
+    z-index:16;
+    background-color: #fcd1af;
 }
 
 header p {
@@ -20,6 +24,7 @@ header p {
 
 #logo {
     width: 100%
+
 }
 
 /*#slogan {
@@ -29,7 +34,7 @@ header p {
     color: lightgrey;
     font-weight: bolder;
 }*/
-
+/*
 .filigrane {
     background-image: url("./images/logo_transparence_50.png");
     background-position: center;
@@ -38,7 +43,7 @@ header p {
     background-attachment: fixed;
     background-size: 50%;
 }
-
+*/
 .bouton {
     color: #000000;
     text-decoration: none;
@@ -75,9 +80,12 @@ nav a {
 
 main {
     display: flex;
+    margin-top: 12rem;
+    z-index: 9999;
 }
 
 /*========= Body / main ==========*/
+
 
 .dimension {
     content: "";
