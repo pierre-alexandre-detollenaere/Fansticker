@@ -1,39 +1,4 @@
-/*========= Body / Header ==========*/
-
-header img {
-    width: 15%;
-}
-
-header {
-    display: flex;
-    box-sizing: border-box;
-    position: fixed !important;
-    top : 0;
-    z-index:16;
-    background-color: #fcd1af;
-}
-
-header p {
-    display: flex;
-    justify-content: flex-end;
-    margin-left: 1.2rem;
-    margin-top: 0rem;
-    box-sizing:border-box;
-    background-color: #fbac80;
-}
-
-#logo {
-    width: 100%
-
-}
-
-/*#slogan {
-    font-size: 1rem;
-    justify-content: flex-start;
-    box-sizing: border-box;
-    color: lightgrey;
-    font-weight: bolder;
-}*/
+/*========= Body / main ==========*/
 /*
 .filigrane {
     background-image: url("./images/logo_transparence_50.png");
@@ -44,48 +9,12 @@ header p {
     background-size: 50%;
 }
 */
-.bouton {
-    color: #000000;
-    text-decoration: none;
-    background-color: #fbac80;
-    margin-top: 1rem;
-    margin-right: 3rem;
-    font-weight: bolder;
-}
-
-.bouton:hover {
-    color: #000000;
-    font-size: 1.3rem;
-    font-weight: bolder;
-}
-
-nav ul {
-    display: flex;
-    list-style-type: none;
-    justify-content:space-around;
-    font-size: 1.2rem;
-    font-weight: bold;
-    margin-top: 1.5rem;
-    margin-right: 3.5rem;
-    padding-left: 0;
-    background-color: #fbac80;
-}
-
-nav a {
-    display: flex;
-    text-decoration: none;
-    margin-left: 1.2rem;
-    color: #000000;
-}
 
 main {
     display: flex;
     margin-top: 12rem;
     z-index: 9999;
 }
-
-/*========= Body / main ==========*/
-
 
 .dimension {
     content: "";
