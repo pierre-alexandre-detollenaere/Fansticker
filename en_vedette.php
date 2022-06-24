@@ -1,3 +1,6 @@
+<?php
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -12,31 +15,9 @@
     <title>FANSTICKER</title>
 </head>
 <body class="filigrane" id="background">
-    <header class="row col-12 d-none d-md-flex justify-content-between align-tems-center text-orange">
-        <div class="col-3">
-            <figure>
-                <img id="logo" src="./images/Fansticker_5_transparent2.png">
-                <!--<figcaption id="slogan">
-                    Des étiquettes pour faire plaisir
-                </figcaption>-->
-            </figure>
-        </div>
-        <nav class="col-7">
-            <ul>
-                <li><a class="lien" href="index.html">Accueil</a></li>
-                <li><a class="lien" href="produits.html">Nos Stickers</a></li>
-                <li><a class="lien" href="promos.html">En Vedette</a></li>
-                <li><a class="lien" href="information.html">Informations</a></li>
-            </ul>
-            <input type="text" class="col-11" id="rechercher" name="rechercher" value="rechercher un thème">
-        </nav>
-        <div class="col-1">
-            <button type="button" class="bouton" href="connexion.html">Connexion</button>
-        </div class="col-1">
-        <div>
-            <button type="button" class="bouton" href="panier.html">Panier</button>
-        </div>
-    </header>
+    <?php 
+      include 'includes/header.php'; 
+    ?>
     <main>
         <!-- Carousel début-->
         <div id="carouselExampleCaptions"  class="carousel slide" data-ride="carousel">
@@ -96,37 +77,8 @@
         </figure>
 
     </main>
-    <footer class="row justify-content-center">
-        <ul class="col-12">
-            <div class="col-1.5"></div>
-            <section class="col-2">
-                <h3>Informations Générales</h3>
-                    <li><a class="lien" href="identite.html">Qui sommes-nous ?</a></li>
-                    <li><a class="lien" href="mentions_legales.html">Mentions légales</a></li>
-                    <li><a class="lien" href="cgu.html">Conditions générales d'utilisation</a></li>
-                    <li><a class="lien" href="cgv.html">Conditions générales de vente</a></li>
-                    <li><a class="lien" href="donnees.html">Données personnelles</a></li>
-            </section>
-            <section class="col-2">
-                <h3>Parrainage</h3>
-                <li><a class="lien" href="parrainage.html">Parrainez vos amis</a></li>
-                <li><a class="lien" href="partenaires.html">Nos Partenaires</a></li>
-            </section>
-            <section class="col-3">
-                <h3>Besoin d'aide ?</h3>
-                <li><a class="lien" href="contact.html">Contactez-nous</a></li>
-                <li><a class="lien" href="service_client.html">Service client</a></li>
-                <li><a class="lien" href="service_client.html">Suivi de commande</a></li>
-                <li><a class="lien" href="faq.html">FAQ</a></li>
-                <img class="paiement" src="./images/Visa-Logo-Transparent-Images.png" alt="Visa Mastercard">
-            </section>
-            <section class="col-2">
-                <h3>Retrouvez-nous sur</h3>
-                <img class="reseau1" src="./images/linkedin.png" alt="linkedin">
-                <img class= "reseau2" src="./images/facebook-instagram-twitter.png" alt="logo facebook-instagram-tweeter">
-            </section>
-            <div class="col-1.5"></div>
-        </ul>
-    </footer>
+    <?php
+      include 'includes/footer.php';
+    ?>
 </body>
 </html>
