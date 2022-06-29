@@ -50,6 +50,7 @@ footer h3 {
 .lien {
     color: #000000;
     text-decoration: none;
+    margin-top : 0.5rem;
 }
 
 li a:hover {
