@@ -1,6 +1,6 @@
 <?php
 ?>
-<footer class="row justify-content-center">
+<footer class="row justify-content-center no-gutter">
 <ul class="col-12">
     <div class="col-1.5"></div>
     <section class="col-2">

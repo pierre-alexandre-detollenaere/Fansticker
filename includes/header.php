@@ -1,6 +1,6 @@
 <?php
 ?>
-<header class="row col-12 d-none d-md-flex justify-content-between align-tems-center text-orange">
+<header class="row col-12 d-none d-md-flex justify-content-between text-orange no-gutters">
     <div class="col-3">
         <figure>
             <img id="logo" src="./images/Fansticker_5_transparent2.png" alt="logo site fansticker">
