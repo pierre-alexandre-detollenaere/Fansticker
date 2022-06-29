@@ -16,30 +16,13 @@ main {
     z-index: 9999;
 }
 
-.dimension {
-    content: "";
-    display:"block";
-    margin-left: 700px;
-}
 
-.color_carousel {
-    color: #c7650ad0;
-    font-size: 1.4rem;
-}
-
-.titre_vedette {
-    font-size: 1.5rem;
-    margin-left: 2rem;
-}
-/*
-.theme {
-    margin-top: -1;
-}/*
 
 /*========= Footer ==========*/
 
 footer {
     display:flex;
+    box-sizing: border-box;
     align-items: flex-end;
     position: relative;
 	left: 0;

@@ -9,6 +9,7 @@ header {
     box-sizing: border-box;
     position: fixed !important;
     top : 0;
+    left: 1rem;
     z-index:16;
     background-color: #fcd1af;
 }

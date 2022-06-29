@@ -1,0 +1,29 @@
+/*========= Body / carousel ==========*/
+
+.dimension {
+    content: "";
+    display:"block";
+    margin-left: 700px;
+}
+
+.color_carousel {
+    color: #c7650ad0;
+    font-size: 1.4rem;
+}
+
+.titre_vedette {
+    font-size: 1.5rem;
+    margin-left: 2rem;
+}
+
+.img {
+    display : flex;
+    flex-wrap : wrap;
+    border : 2px solid #ffffff73;
+    border-radius : 2px;
+}
+
+.img-txt {
+
+}
+

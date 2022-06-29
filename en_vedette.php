@@ -9,6 +9,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/index.css">
     <link rel="stylesheet" href="./css/header.css">
+    <link rel="stylesheet" href="./css/en_vedette.css">
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
@@ -61,13 +62,43 @@
           </div>
         </br>
         <!--Carousel fin-->
-        <h2 class="titre_vedette">LE THÈME DU MOMENT</h2>
-        <figure>
-          <img class="theme" src="images/Stickers - En Vedette/étiquette carrée haute - père1_transparent.png" alt="sticker père 1">
-          <img class="theme" src="images/Stickers - En Vedette/étiquette ovale - père2_transparent.png" alt="sticker père 2">
-          <img class="theme" src="images/Stickers - En Vedette/étiquette ronde - père3_transparent.png" alt="sticker père 3">
-        </figure>
+        <section>
+          <h2 class="titre_vedette">LE THÈME DU MOMENT</h2>
+            <div>
+              <article>
+                <figure>
+                  <div class="img">
+                    <img src="images/Stickers - En Vedette/étiquette carrée haute - père1_transparent.png" alt="sticker père 1">
+                  </div>
+                    <figcaption>
+                    <p>Étiquette carré haut fête des pères</p>
+                  </figcaption>
+                </figure>
+              </article>
+              <article>
+                <figure>
+                  <div class="img">
+                    <img src="images/Stickers - En Vedette/étiquette ovale - père2_transparent.png" alt="sticker père 2">
+                  </div>
+                    <figcaption>
+                    <p>Étiquette ovale fête des pères</p>
+                  </figcaption>
+                </figure>
+              </article>
+              <article>
+                <figure>
+                  <div class="img">
+                    <img src="images/Stickers - En Vedette/étiquette ronde - père3_transparent.png" alt="sticker père 3">
+                  </div>
+                    <figcaption class="img-txt">
+                    <p>Étiquette ronde fête des pères</p>
+                  </figcaption>
+                </figure>
+              </article>
+            </div>
+        </section>
         <h2 class="titre_vedette">VOS STICKERS PRÉFÉRÉS</h2>
+        
         <figure>
           <img src="images/Stickers - En Vedette/étiquette carrée haute - mère1_transparent.png" alt="sticker mère 1">
           <img src="images/Stickers - En Vedette/étiquette ovale - mère2_transparent.png" alt="sticker mère 2">

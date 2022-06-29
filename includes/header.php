@@ -11,9 +11,9 @@
     </div>
     <nav class="col-7">
         <ul>
-            <li><a class="lien" href="index.html">Accueil</a></li>
+            <li><a class="lien" href="index.php">Accueil</a></li>
             <li><a class="lien" href="produits.html">Nos Stickers</a></li>
-            <li><a class="lien" href="promos.html">En Vedette</a></li>
+            <li><a class="lien" href="en_vedette.php">En Vedette</a></li>
             <li><a class="lien" href="information.html">Informations</a></li>
         </ul>
         <input type="text" class="col-11" id="rechercher" name="rechercher" value="rechercher un thème">
