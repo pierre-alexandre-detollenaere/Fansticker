@@ -67,31 +67,34 @@
             <div class="row">
               <article>
                 <figure>
-                  <div class="img">
-                    <img src="images/Stickers - En Vedette/étiquette carrée haute - père1_transparent.png" width=70% alt="sticker père 1">
+                  <div>
+                    <img src="images/Stickers - En Vedette/étiquette carrée haute - père1.png" width=70% alt="sticker père 1">
                   </div>
-                    <figcaption>
-                    <p>Étiquette carré haut fête des pères</p>
+                  <figcaption>
+                    <h3>Sticker "carré" fête des pères</h3>
+                    <p>prix</p>
                   </figcaption>
                 </figure>
               </article>
               <article>
                 <figure>
                   <div class="img">
-                    <img src="images/Stickers - En Vedette/étiquette ovale - père2_transparent.png" width=70% alt="sticker père 2">
+                    <img src="images/Stickers - En Vedette/étiquette ovale - père2.png" width=70% alt="sticker père 2">
                   </div>
-                    <figcaption>
-                    <p>Étiquette ovale fête des pères</p>
+                  <figcaption>
+                    <h3>Sticker ovale fête des pères</h3>
+                    <p>prix</p>
                   </figcaption>
                 </figure>
               </article>
               <article>
                 <figure>
                   <div class="img">
-                    <img src="images/Stickers - En Vedette/étiquette ronde - père3_transparent.png" width=70% alt="sticker père 3">
+                    <img src="images/Stickers - En Vedette/étiquette ronde - père3.png" width=70% alt="sticker père 3">
                   </div>
-                    <figcaption class="img-txt">
-                    <p>Étiquette ronde fête des pères</p>
+                  <figcaption class="img-txt">
+                    <h3>Sticker rond fête des pères</h3>
+                    <p>prix</p>
                   </figcaption>
                 </figure>
               </article>

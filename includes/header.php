@@ -47,7 +47,7 @@
         <input type="text" class="col-11" id="rechercher" name="rechercher" placeholder="rechercher un thème">
     </nav>
     <div class="col-1">
-        <button type="button" class="bouton" href="connexion.html">Connexion</button>
+        <button type="button" class="connexion" href="connexion.html">Connexion</button>
     </div class="col-1">
     <div>
         <button type="button" class="bouton_panier">
