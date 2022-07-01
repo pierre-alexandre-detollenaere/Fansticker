@@ -19,6 +19,30 @@
 
 /*========= Body / article/images ==========*/
 
+body {
+    background-image: url(../images/eberhard-grossgasteiger-jCL98LGaeoE-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: bottom;
+    background-position-y: center;
+}
+/*
+body {
+    background-image: url(../images/eberhard-grossgasteiger-jCL98LGaeoE-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: contain;
+    background-position: left;
+}
+
+main {
+    background-image: url(../images/eberhard-grossgasteiger-jCL98LGaeoE-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: contain;
+    background-position: right;
+}
+*/
 article {
     width: 20%;
     padding: 0.8rem;
@@ -26,7 +50,7 @@ article {
     background-color: #fcd1af;
     border-bottom: 2px solid #06080f;
     padding: 0;
-    background: linear-gradient(to top, #fcd1af 20%, #fff 100%);
+    background: linear-gradient(to top, #fcd1af 20%, transparent 100%); /* #fff */
     margin: 4rem;
 }
 
