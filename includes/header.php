@@ -44,7 +44,7 @@
             <li><a class="lien" href="en_vedette.php">En Vedette</a></li>
             <li><a class="lien" href="information.html">Informations</a></li>
         </ul>
-        <input type="text" class="col-11" id="rechercher" name="rechercher" placeholder="rechercher un thème">
+        <input type="text" class="search" id="rechercher" name="rechercher" placeholder="rechercher un thème">
     </nav>
     <div class="col-1">
         <button type="button" class="connexion" href="connexion.html">Connexion</button>
