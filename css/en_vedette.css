@@ -27,6 +27,7 @@ article {
     border-bottom: 2px solid #06080f;
     padding: 0;
     background: linear-gradient(to top, #fcd1af 20%, #fff 100%);
+    margin: 4rem;
 }
 
 article img {

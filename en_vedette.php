@@ -21,95 +21,154 @@
       include 'includes/header.php'; 
     ?>
     <main>
-        <!-- Carousel début-->
-        <div id="carouselExampleCaptions"  class="carousel slide" data-ride="carousel">
-            <ol class="carousel-indicators">
-              <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
-              <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
-              <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
-            </ol>
-            <div class="carousel-inner">
-              <div class="carousel-item active">
-                <img class="dimension" src="./images/Carousel/father_day_2.jpg" width="612" height="270" class="d-block w-100" alt="fête des pères">
-                <div class="carousel-caption d-none d-md-block">
-                  <h5 class="color_carousel">Pour sa fête,</h5>
-                  <h5 class="color_carousel">pensez à un sticker pour lui faire plaisir</h5>
-                </div>
-              </div>
-              <div class="carousel-item">
-                <img class="dimension" src="./images/Carousel/mother_day_612x612.jpg" width="612" height="270" class="d-block w-100" alt="fête des mères">
-                <div class="carousel-caption d-none d-md-block">
-                  <h5></h5>
-                  <p></p>
-                </div>
-              </div>
-              <div class="carousel-item">
-                <img class="dimension" src="./images/Carousel/valentine_day_612x612.jpg" width="612" height="270" class="d-block w-100" alt="saint-valentin">
-                <div class="carousel-caption d-none d-md-block">
-                  <h5></h5>
-                  <p></p>
-                </div>
-              </div>
+      <!-- Carousel début-->
+      <div id="carouselExampleCaptions"  class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+          <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+          <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img class="dimension" src="./images/Carousel/father_day_2.jpg" width="612" height="270" class="d-block w-100" alt="fête des pères">
+            <div class="carousel-caption d-none d-md-block">
+              <h5 class="color_carousel">Pour sa fête,</h5>
+              <h5 class="color_carousel">pensez à un sticker pour lui faire plaisir</h5>
             </div>
-            <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="sr-only">Previous</span>
-            </a>
-            <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="sr-only">Next</span>
-            </a>
           </div>
-        </br>
-        <!--Carousel fin-->
-        <section>
-          <h2 class="titre_vedette">LE THÈME DU MOMENT</h2>
-            <div class="row">
-              <article>
-                <figure>
-                  <div>
-                    <img src="images/Stickers - En Vedette/étiquette carrée haute - père1.png" width=70% alt="sticker père 1">
-                  </div>
-                  <figcaption>
-                    <h3>Sticker "carré" fête des pères</h3>
-                    <p>prix</p>
-                  </figcaption>
-                </figure>
-              </article>
-              <article>
-                <figure>
-                  <div class="img">
-                    <img src="images/Stickers - En Vedette/étiquette ovale - père2.png" width=70% alt="sticker père 2">
-                  </div>
-                  <figcaption>
-                    <h3>Sticker ovale fête des pères</h3>
-                    <p>prix</p>
-                  </figcaption>
-                </figure>
-              </article>
-              <article>
-                <figure>
-                  <div class="img">
-                    <img src="images/Stickers - En Vedette/étiquette ronde - père3.png" width=70% alt="sticker père 3">
-                  </div>
-                  <figcaption class="img-txt">
-                    <h3>Sticker rond fête des pères</h3>
-                    <p>prix</p>
-                  </figcaption>
-                </figure>
-              </article>
+          <div class="carousel-item">
+            <img class="dimension" src="./images/Carousel/mother_day_612x612.jpg" width="612" height="270" class="d-block w-100" alt="fête des mères">
+            <div class="carousel-caption d-none d-md-block">
+              <h5></h5>
+              <p></p>
             </div>
-        </section>
-        <h2 class="titre_vedette">VOS STICKERS PRÉFÉRÉS</h2>
-        <div class="container col-10">
-        <figure>
-          <img src="images/Stickers - En Vedette/étiquette carrée haute - mère1_transparent.png" alt="sticker mère 1">
-          <img src="images/Stickers - En Vedette/étiquette ovale - mère2_transparent.png" alt="sticker mère 2">
-          <img src="images/Stickers - En Vedette/étiquette ronde - mère3_transparent.png" alt="sticker mère 3">
-          <img src="images/Stickers - En Vedette/étiquette carrée haute - stvalentin1_transparent.png" alt="sticker saint valentin 1">
-          <img src="images/Stickers - En Vedette/étiquette ovale - stvalentin2_transparent.png" alt="sticker saint valentin 2">
-          <img src="images/Stickers - En Vedette/étiquette ronde - stvalentin3_transparent.png" alt="sticker saint valentin 3">
-        </figure>
+          </div>
+          <div class="carousel-item">
+            <img class="dimension" src="./images/Carousel/valentine_day_612x612.jpg" width="612" height="270" class="d-block w-100" alt="saint-valentin">
+            <div class="carousel-caption d-none d-md-block">
+              <h5></h5>
+              <p></p>
+            </div>
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+      </br>
+      <!--Carousel fin-->
+      <section>
+      <h2 class="titre_vedette">LE THÈME DU MOMENT</h2>
+        <div class="row">
+          <article>
+            <figure>
+              <div>
+                <img src="images/Stickers - En Vedette/étiquette carrée haute - père1.png" width=70% alt="sticker père 1">
+              </div>
+              <figcaption>
+                <h3>Sticker "carré" fête des pères</h3>
+                <p>Lot de 5 stickers : 2€40</p>
+              </figcaption>
+            </figure>
+          </article>
+          <article>
+            <figure>
+              <div class="img">
+                <img src="images/Stickers - En Vedette/étiquette ovale - père2.png" width=70% alt="sticker père 2">
+              </div>
+              <figcaption>
+                <h3>Sticker ovale fête des pères</h3>
+                <p>Lot de 5 stickers : 2€40</p>
+              </figcaption>
+            </figure>
+          </article>
+          <article>
+            <figure>
+              <div class="img">
+                <img src="images/Stickers - En Vedette/étiquette ronde - père3.png" width=70% alt="sticker père 3">
+              </div>
+              <figcaption>
+                <h3>Sticker rond fête des pères</h3>
+                <p>Lot de 5 stickers : 2€40</p>
+              </figcaption>
+            </figure>
+          </article>
+        </div>
+    </section>
+    <section>
+      <h2 class="titre_vedette">VOS STICKERS PRÉFÉRÉS</h2>
+        <div class="row">
+          <article>
+            <figure>
+              <div class="img">
+                <img src="images/Stickers - En Vedette/étiquette carrée haute - mère1.png" alt="sticker mère 1">
+              </div>
+              <figcaption>
+                <h3>Sticker "carré" fête des mères</h3>
+                <p>Lot de 5 stickers : 2€40</p>
+            </figure>
+          </article>
+          <article>
+            <figure>
+              <div class="img">
+              <img src="images/Stickers - En Vedette/étiquette ovale - mère2.png" alt="sticker mère 2">
+              </div>
+              <figcaption>
+                <h3>Sticker ovale fête des mères</h3>
+                <p>Lot de 5 stickers : 2€40</p>
+              </figcaption>
+            </figure>
+          </article>
+          <article>
+            <figure>
+              <div class="img">
+              <img src="images/Stickers - En Vedette/étiquette ronde - mère3.png" alt="sticker mère 3">
+              </div>
+              <figcaption>
+                <h3>Sticker rond fête des mères</h3>
+                <p>Lot de 5 stickers : 2€40</p>
+              </figcation>
+            </figure>
+          </article>
+          <article>
+            <figure>
+              <div class="img">
+              <img src="images/Stickers - En Vedette/étiquette carrée haute - stvalentin1.png" alt="sticker saint valentin 1">
+              </div>
+              <figcaption>
+                <h3>Sticker "carré" Saint-Valentin</h3>
+                <p>Lot de 5 stickers : 2€40</p>
+              </figcaption>
+            </figure>
+          </article>
+          <article>
+            <figure>
+              <div class="img">
+              <img src="images/Stickers - En Vedette/étiquette ovale - stvalentin2.png" alt="sticker saint valentin 2">
+              </div>
+              <figcaption>
+                <h3>Sticker ovale Saint-Valentin</h3>
+                <p>Lot de 5 stickers : 2€40</p>
+              </figcaption>
+            </figure>
+          </article>
+          <article>
+            <figure>
+              <div class="img">
+              <img src="images/Stickers - En Vedette/étiquette ronde - stvalentin3.png" alt="sticker saint valentin 3">
+              </div>
+              <figcaption>
+                <h3>Sticker rond Saint-Valentin</h3>
+                <p>Lot de 5 stickers : 2€40</p>
+              </figcaption>
+            </figure>
+          </article>
+      </section>
 
     </main>
     <?php
