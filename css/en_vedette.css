@@ -26,18 +26,13 @@ article {
     background-color: #fcd1af;
     border-bottom: 2px solid #06080f;
     padding: 0;
+    background: linear-gradient(to top, #fcd1af 20%, #fff 100%);
 }
 
 article img {
     width: 380px;
     height: 240px;
     padding: 0.5rem;
-}
-
-figcaption {
-    border-radius: 10px 10px 100px 10px;
-    background-color: #fcd1af;
-    border-bottom: 2px solid #06080f;
 }
 
 figcaption h3 {
