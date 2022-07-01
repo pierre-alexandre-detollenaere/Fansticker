@@ -50,7 +50,9 @@
         <button type="button" class="bouton" href="connexion.html">Connexion</button>
     </div class="col-1">
     <div>
-        <button type="button" class="bouton" href="panier.html">Panier</button>
+        <button type="button" class="bouton_panier">
+            <img class="panier" src=./images/panier_plein.png href="panier.html">
+        </button>
     </div>
-    
+    <!-- img src="./images/panier - orange.png" -->
 </header>

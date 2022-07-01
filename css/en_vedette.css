@@ -14,16 +14,35 @@
 .titre_vedette {
     font-size: 1.5rem;
     margin-left: 2rem;
+    margin: 2rem;
 }
 
-.img {
-    display : flex;
-    flex-wrap : wrap;
-    border : 2px solid #ffffff73;
-    border-radius : 2px;
+article {
+    width: 20%;
+    padding: 0.8rem;
+    background-color: lightgrey;
 }
 
-.img-txt {
-
+article img {
+    width: 100%;
 }
 
+figcaption h3 {
+    font-size: 1.3rem;
+    padding: 0.8rem;
+}
+
+figcaption {
+    display: flex;
+    font-size: 1.5rem;
+    flex-direction: row-reverse;
+}
+
+article figure {
+   margin: 0;
+}
+
+section {
+    display: flex;
+    justify-content: space-between;
+}

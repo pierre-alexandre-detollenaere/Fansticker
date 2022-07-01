@@ -81,3 +81,19 @@ nav a {
     font-weight: bold;
     font-size: 1.1rem;
 }
+
+.bouton_panier {
+    color: #000000;
+    border : 0px solid #fbac80 ;
+    border-radius : 6px;
+    text-decoration: none;
+    background-color: transparent;
+    margin-top: 1rem;
+    margin-right: 3rem;
+    /*font-weight: bolder;*/
+}
+
+.panier {
+    height: 35px;
+    width: 50px;
+}
