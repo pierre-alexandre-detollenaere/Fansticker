@@ -29,7 +29,7 @@
             <article>
                 <figure>
                 <div>
-                    <img src="images/Stickers - En Vedette/étiquette carrée haute - père1.png" width=70% alt="sticker père 1">
+                    <img src="images/theme_sport/athletisme_carre.png" width=70% alt="sticker père 1">
                 </div>
                 <figcaption>
                     <h3>Sticker "carré" fête des pères</h3>
