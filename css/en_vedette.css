@@ -12,9 +12,17 @@
 }
 
 .titre_vedette {
+    display: flex;
+    justify-content: center;
     font-size: 1.5rem;
+    padding: 0.4rem;
     margin-left: 2rem;
     margin: 2rem;
+    height : 40px;
+    width: fit-content;
+    background-color: #fbac80;
+    border-radius: 6px;
+    border-bottom: 2px solid #06080f;
 }
 
 /*========= Body / article/images ==========*/

@@ -10,6 +10,7 @@
             <li><a class="lien" href="cgu.html">Conditions générales d'utilisation</a></li>
             <li><a class="lien" href="cgv.html">Conditions générales de vente</a></li>
             <li><a class="lien" href="donnees.html">Données personnelles</a></li>
+            <li><a class="lien" href="livraison.html">Modes de livraison</a></li>
     </section>
     <section class="col-2">
         <h3>Parrainage</h3>
@@ -31,4 +32,6 @@
     </section>
     <div class="col-1.5"></div>
 </ul>
+<div>
+    <p>2022 © Fansticker. Tous droits réservés.
 </footer>

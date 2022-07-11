@@ -19,14 +19,14 @@
                 </button>
                 <div class="dropdown-menu dropdown-menu-right dropdown-menu-lg-left">
                     <div>
-                        <div class="btn-group dropright">
+                        <div class="btn-group dropright flex-column">
                             <button type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" data-display="static" aria-expanded="false">
                                 Thèmes
                             
                                 <div class="dropdown-menu">
                                     <!-- Dropdown menu links -->
                                     <div class="dropdown-menu dropdown-menu-right dropdown-menu-lg-left">
-                                        <button class="dropdown-item" type="button">Sport</button>
+                                        <button class="dropdown-item align-items-right" type="button">Sport</button>
                                         <button class="dropdown-item" type="button">Évènements</button>
                                         <button class="dropdown-item" type="button">Métiers</button>
                                         <button class="dropdown-item" type="button">Animaux</button>
@@ -42,12 +42,12 @@
 -->
             </li>
             <li><a class="lien" href="en_vedette.php">En Vedette</a></li>
-            <li><a class="lien" href="information.html">Informations</a></li>
+            <li><a class="lien" href="contact.html">Nous contacter</a></li>
         </ul>
         <input type="text" class="search" id="rechercher" name="rechercher" placeholder="rechercher un thème">
     </nav>
     <div class="col-1">
-        <button type="button" class="connexion" href="connexion.html">Connexion</button>
+        <button type="button" class="connexion" href="connexion.html">S'identifier</button>
     </div class="col-1">
     <div>
         <button type="button" class="bouton_panier">
