@@ -72,7 +72,7 @@
               </div>
               <figcaption>
                 <h3>Sticker carré fête des pères</h3>
-                <p>Lot de 5 stickers : 2€40</p>
+                <p>Lot de 6 stickers : 4€99</p>
               </figcaption>
             </figure>
           </article>
@@ -83,7 +83,7 @@
               </div>
               <figcaption>
                 <h3>Sticker long fête des pères</h3>
-                <p>Lot de 5 stickers : 2€40</p>
+                <p>Lot de 6 stickers : 4€99</p>
               </figcaption>
             </figure>
           </article>
@@ -94,7 +94,7 @@
               </div>
               <figcaption>
                 <h3>Sticker rond fête des pères</h3>
-                <p>Lot de 5 stickers : 2€40</p>
+                <p>Lot de 6 stickers : 4€99</p>
               </figcaption>
             </figure>
           </article>
@@ -110,7 +110,7 @@
               </div>
               <figcaption>
                 <h3>Sticker carré fête des mères</h3>
-                <p>Lot de 5 stickers : 2€40</p>
+                <p>Lot de 6 stickers : 4€99</p>
             </figure>
           </article>
           <article>
@@ -120,7 +120,7 @@
               </div>
               <figcaption>
                 <h3>Sticker long fête des mères</h3>
-                <p>Lot de 5 stickers : 2€40</p>
+                <p>Lot de 6 stickers : 4€99</p>
               </figcaption>
             </figure>
           </article>
@@ -131,7 +131,7 @@
               </div>
               <figcaption>
                 <h3>Sticker rond fête des mères</h3>
-                <p>Lot de 5 stickers : 2€40</p>
+                <p>Lot de 6 stickers : 4€99</p>
               </figcation>
             </figure>
           </article>
@@ -142,7 +142,7 @@
               </div>
               <figcaption>
                 <h3>Sticker carré Saint-Valentin</h3>
-                <p>Lot de 5 stickers : 2€40</p>
+                <p>Lot de 6 stickers : 4€99</p>
               </figcaption>
             </figure>
           </article>
@@ -153,7 +153,7 @@
               </div>
               <figcaption>
                 <h3>Sticker long Saint-Valentin</h3>
-                <p>Lot de 5 stickers : 2€40</p>
+                <p>Lot de 6 stickers : 4€99</p>
               </figcaption>
             </figure>
           </article>
@@ -164,7 +164,7 @@
               </div>
               <figcaption>
                 <h3>Sticker rond Saint-Valentin</h3>
-                <p>Lot de 5 stickers : 2€40</p>
+                <p>Lot de 6 stickers : 4€99</p>
               </figcaption>
             </figure>
           </article>

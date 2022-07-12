@@ -22,113 +22,305 @@
         include_once "includes/header.php";
     ?>
     <main>
-        <section>
+        <section class="row">
         <div></div>
         <h2 class="titre_vedette">ATHLÉTISME</h2>
-            <div class="row">
-            <article>
-                <figure>
-                <div class="img_bis">
-                    <img src="images/theme_sport/athletisme_carre.png" alt="sticker père 1">
-                </div>
-                <figcaption>
-                    <h3>Sticker carré fête des pères</h3>
-                    <p>Lot de 5 stickers : 2€40</p>
-                </figcaption>
-                </figure>
-            </article>
-            <article>
-                <figure>
-                <div class="img">
-                    <img src="images/Stickers - En Vedette/étiquette ovale - père2.png" alt="sticker père 2">
-                </div>
-                <figcaption>
-                    <h3>Sticker long fête des pères</h3>
-                    <p>Lot de 5 stickers : 2€40</p>
-                </figcaption>
-                </figure>
-            </article>
-            <article>
-                <figure>
-                <div class="img_bis">
-                    <img src="images/Stickers - En Vedette/étiquette ronde - père3.png" alt="sticker père 3">
-                </div>
-                <figcaption>
-                    <h3>Sticker rond fête des pères</h3>
-                    <p>Lot de 5 stickers : 2€40</p>
-                </figcaption>
-                </figure>
-            </article>
+            <div>
+                <article>
+                    <figure>
+                    <div class="img_bis">
+                        <img src="images/theme_sport/athletisme_carre.png" alt="sticker Athlétisme carré">
+                    </div>
+                        <figcaption>
+                            <h3>Sticker carré Athlète</h3>
+                            <p>Lot de 6 stickers : 4€99</p>
+                        </figcaption>
+                    </figure>
+                </article>
+                <article>
+                    <figure>
+                    <div class="img">
+                        <img src="images/theme_sport/athletisme_long.png" alt="sticker Athlétisme long">
+                    </div>
+                        <figcaption>
+                            <h3>Sticker long Athlète</h3>
+                            <p>Lot de 6 stickers : 4€99</p>
+                        </figcaption>
+                    </figure>
+                </article>
+                <article>
+                    <figure>
+                    <div class="img_bis">
+                        <img src="images/theme_sport/athletisme_losange.png" alt="sticker Athlétisme losange">
+                    </div>
+                        <figcaption>
+                            <h3>Sticker losange Athlète</h3>
+                            <p>Lot de 6 stickers : 4€99</p>
+                        </figcaption>
+                    </figure>
+                </article>
+                <article>
+                    <figure>
+                        <div class="img_bis">
+                            <img src="images/theme_sport/athletisme_rond.png" alt="sticker Athlétisme rond">
+                        </div>
+                        <figcaption>
+                            <h3>Sticker rond Athlète</h3>
+                            <p>Lot de 6 stickers : 4€99</p>
+                        </figcaption>
+                    </figure>
+                </article>
             </div>
         </section>
-        <section>
-        <h2 class="titre_vedette">VOS STICKERS PRÉFÉRÉS</h2>
-            <div class="row">
-            <article>
-                <figure>
-                <div class="img_bis">
-                    <img src="images/Stickers - En Vedette/étiquette carrée haute - mère1.png" alt="sticker mère 1">
-                </div>
-                <figcaption>
-                    <h3>Sticker carré fête des mères</h3>
-                    <p>Lot de 5 stickers : 2€40</p>
-                </figure>
-            </article>
-            <article>
-                <figure>
-                <div class="img">
-                <img src="images/Stickers - En Vedette/étiquette ovale - mère2.png" alt="sticker mère 2">
-                </div>
-                <figcaption>
-                    <h3>Sticker long fête des mères</h3>
-                    <p>Lot de 5 stickers : 2€40</p>
-                </figcaption>
-                </figure>
-            </article>
-            <article>
-                <figure>
-                <div class="img_bis">
-                <img src="images/Stickers - En Vedette/étiquette ronde - mère3.png" alt="sticker mère 3">
-                </div>
-                <figcaption>
-                    <h3>Sticker rond fête des mères</h3>
-                    <p>Lot de 5 stickers : 2€40</p>
-                </figcation>
-                </figure>
-            </article>
-            <article>
-                <figure>
-                <div class="img_bis">
-                <img src="images/Stickers - En Vedette/étiquette carrée haute - stvalentin1.png" alt="sticker saint valentin 1">
-                </div>
-                <figcaption>
-                    <h3>Sticker carré Saint-Valentin</h3>
-                    <p>Lot de 5 stickers : 2€40</p>
-                </figcaption>
-                </figure>
-            </article>
-            <article>
-                <figure>
-                <div class="img">
-                <img src="images/Stickers - En Vedette/étiquette ovale - stvalentin2.png" alt="sticker saint valentin 2">
-                </div>
-                <figcaption>
-                    <h3>Sticker long Saint-Valentin</h3>
-                    <p>Lot de 5 stickers : 2€40</p>
-                </figcaption>
-                </figure>
-            </article>
-            <article>
-                <figure>
-                <div class="img_bis">
-                <img src="images/Stickers - En Vedette/étiquette ronde - stvalentin3.png" alt="sticker saint valentin 3">
-                </div>
-                <figcaption>
-                    <h3>Sticker rond Saint-Valentin</h3>
-                    <p>Lot de 5 stickers : 2€40</p>
-                </figcaption>
-                </figure>
-            </article>
+        <section class="row">
+        <div></div>
+        <h2 class="titre_vedette">BASKET</h2>
+            <div>
+                <article>
+                    <figure>
+                    <div class="img_bis">
+                        <img src="images/theme_sport/basket_carre.png" alt="sticker Basket carré">
+                    </div>
+                        <figcaption>
+                            <h3>Sticker carré Basket</h3>
+                            <p>Lot de 6 stickers : 4€99</p>
+                        </figcaption>
+                    </figure>
+                </article>
+                <article>
+                    <figure>
+                    <div class="img">
+                        <img src="images/theme_sport/basket_long.png" alt="sticker Basket long">
+                    </div>
+                        <figcaption>
+                            <h3>Sticker long Basket</h3>
+                            <p>Lot de 6 stickers : 4€99</p>
+                        </figcaption>
+                    </figure>
+                </article>
+                <article>
+                    <figure>
+                    <div class="img_bis">
+                        <img src="images/theme_sport/basket_losange.png" alt="sticker Basket losange">
+                    </div>
+                        <figcaption>
+                            <h3>Sticker losange Basket</h3>
+                            <p>Lot de 6 stickers : 4€99</p>
+                        </figcaption>
+                    </figure>
+                </article>
+                <article>
+                    <figure>
+                        <div class="img_bis">
+                            <img src="images/theme_sport/basket_rond.png" alt="sticker Basket rond">
+                        </div>
+                        <figcaption>
+                            <h3>Sticker rond Basket</h3>
+                            <p>Lot de 6 stickers : 4€99</p>
+                        </figcaption>
+                    </figure>
+                </article>
+            </div>
+        </section>
+        <section class="row">
+        <div></div>
+        <h2 class="titre_vedette">FOOTBALL</h2>
+            <div>
+                <article>
+                    <figure>
+                    <div class="img_bis">
+                        <img src="images/theme_sport/foot_carre.png" alt="sticker Football carré">
+                    </div>
+                        <figcaption>
+                            <h3>Sticker carré Football</h3>
+                            <p>Lot de 6 stickers : 4€99</p>
+                        </figcaption>
+                    </figure>
+                </article>
+                <article>
+                    <figure>
+                    <div class="img">
+                        <img src="images/theme_sport/foot_long.png" alt="sticker Football long">
+                    </div>
+                        <figcaption>
+                            <h3>Sticker long Football</h3>
+                            <p>Lot de 6 stickers : 4€99</p>
+                        </figcaption>
+                    </figure>
+                </article>
+                <article>
+                    <figure>
+                    <div class="img_bis">
+                        <img src="images/theme_sport/foot_losange.png" alt="sticker Football losange">
+                    </div>
+                        <figcaption>
+                            <h3>Sticker losange Football</h3>
+                            <p>Lot de 6 stickers : 4€99</p>
+                        </figcaption>
+                    </figure>
+                </article>
+                <article>
+                    <figure>
+                        <div class="img_bis">
+                            <img src="images/theme_sport/foot_rond.png" alt="sticker Football rond">
+                        </div>
+                        <figcaption>
+                            <h3>Sticker rond Football</h3>
+                            <p>Lot de 6 stickers : 4€99</p>
+                        </figcaption>
+                    </figure>
+                </article>
+            </div>
+        </section>
+        <section class="row">
+        <div></div>
+        <h2 class="titre_vedette">GOLF</h2>
+            <div>
+                <article>
+                    <figure>
+                    <div class="img_bis">
+                        <img src="images/theme_sport/golf_carre.png" alt="sticker Golf carré">
+                    </div>
+                        <figcaption>
+                            <h3>Sticker carré Golf</h3>
+                            <p>Lot de 6 stickers : 4€99</p>
+                        </figcaption>
+                    </figure>
+                </article>
+                <article>
+                    <figure>
+                    <div class="img">
+                        <img src="images/theme_sport/golf_long.png" alt="sticker Golf long">
+                    </div>
+                        <figcaption>
+                            <h3>Sticker long Golf</h3>
+                            <p>Lot de 6 stickers : 4€99</p>
+                        </figcaption>
+                    </figure>
+                </article>
+                <article>
+                    <figure>
+                    <div class="img_bis">
+                        <img src="images/theme_sport/golf_losange.png" alt="sticker Golf losange">
+                    </div>
+                        <figcaption>
+                            <h3>Sticker losange Golf</h3>
+                            <p>Lot de 6 stickers : 4€99</p>
+                        </figcaption>
+                    </figure>
+                </article>
+                <article>
+                    <figure>
+                        <div class="img_bis">
+                            <img src="images/theme_sport/golf_rond.png" alt="sticker Golf rond">
+                        </div>
+                        <figcaption>
+                            <h3>Sticker rond Golf</h3>
+                            <p>Lot de 6 stickers : 4€99</p>
+                        </figcaption>
+                    </figure>
+                </article>
+            </div>
+        </section>
+        <section class="row">
+        <div></div>
+        <h2 class="titre_vedette">RUGBY</h2>
+            <div>
+                <article>
+                    <figure>
+                    <div class="img_bis">
+                        <img src="images/theme_sport/rugby_carre.png" alt="sticker Rugby carré">
+                    </div>
+                        <figcaption>
+                            <h3>Sticker carré Rugby</h3>
+                            <p>Lot de 6 stickers : 4€99</p>
+                        </figcaption>
+                    </figure>
+                </article>
+                <article>
+                    <figure>
+                    <div class="img">
+                        <img src="images/theme_sport/rugby_long.png" alt="sticker Rugby long">
+                    </div>
+                        <figcaption>
+                            <h3>Sticker long Rugby</h3>
+                            <p>Lot de 6 stickers : 4€99</p>
+                        </figcaption>
+                    </figure>
+                </article>
+                <article>
+                    <figure>
+                    <div class="img_bis">
+                        <img src="images/theme_sport/rugby_losange.png" alt="sticker Rugby losange">
+                    </div>
+                        <figcaption>
+                            <h3>Sticker losange Rugby</h3>
+                            <p>Lot de 6 stickers : 4€99</p>
+                        </figcaption>
+                    </figure>
+                </article>
+                <article>
+                    <figure>
+                        <div class="img_bis">
+                            <img src="images/theme_sport/rugby_rond.png" alt="sticker Rugby rond">
+                        </div>
+                        <figcaption>
+                            <h3>Sticker rond Rugby</h3>
+                            <p>Lot de 6 stickers : 4€99</p>
+                        </figcaption>
+                    </figure>
+                </article>
+            </div>
+        </section>
+        <section class="row">
+        <div></div>
+        <h2 class="titre_vedette">TENNIS</h2>
+            <div>
+                <article>
+                    <figure>
+                    <div class="img_bis">
+                        <img src="images/theme_sport/tennis_carre.png" alt="sticker Tennis carré">
+                    </div>
+                        <figcaption>
+                            <h3>Sticker carré Tennis</h3>
+                            <p>Lot de 6 stickers : 4€99</p>
+                        </figcaption>
+                    </figure>
+                </article>
+                <article>
+                    <figure>
+                    <div class="img">
+                        <img src="images/theme_sport/tennis_long.png" alt="sticker Tennis long">
+                    </div>
+                        <figcaption>
+                            <h3>Sticker long Tennis</h3>
+                            <p>Lot de 6 stickers : 4€99</p>
+                        </figcaption>
+                    </figure>
+                </article>
+                <article>
+                    <figure>
+                    <div class="img_bis">
+                        <img src="images/theme_sport/tennis_losange.png" alt="sticker Tennis losange">
+                    </div>
+                        <figcaption>
+                            <h3>Sticker losange Tennis</h3>
+                            <p>Lot de 6 stickers : 4€99</p>
+                        </figcaption>
+                    </figure>
+                </article>
+                <article>
+                    <figure>
+                        <div class="img_bis">
+                            <img src="images/theme_sport/tennis_rond.png" alt="sticker Tennis rond">
+                        </div>
+                        <figcaption>
+                            <h3>Sticker rond Tennis</h3>
+                            <p>Lot de 6 stickers : 4€99</p>
+                        </figcaption>
+                    </figure>
+                </article>
+            </div>
         </section>
     </main>
     <?php

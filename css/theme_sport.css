@@ -16,9 +16,9 @@
     justify-content: center;
     font-size: 1.5rem;
     padding: 0.4rem;
-    margin-left: 2rem;
-    margin: 2rem;
-    height : 40px;
+    /*margin-left: 4rem;*/
+    margin: 2rem 4rem 2rem 4rem;
+    height : fit-content;
     width: fit-content;
     background-color: #fbac80;
     border-radius: 6px;
@@ -32,9 +32,9 @@
 body {
     background-image: url(../images/fond_sport5.jpg);
     background-repeat: no-repeat;
-    background-attachment: scroll;
+    background-attachment: fixed;
     background-position: center;
-    background-position-y: 60%;
+    background-position-y: 35%;
 }
 /*
 body {
@@ -65,7 +65,7 @@ article {
 }
 
 article img {
-    width: 380px;
+    width: 450px;
     height: 240px;
     padding: 0.5rem;
 }
@@ -81,6 +81,7 @@ article img {
 figcaption h3 {
     font-size: 1.3rem;
     padding: 0.8rem;
+    
 }
 
 figcaption h3, p {
@@ -91,7 +92,7 @@ figcaption h3, p {
 }
 
 article figure {
-   margin: 0;
+   margin: auto;
 }
 
 section div {
