@@ -67,11 +67,11 @@
         <div class="row">
           <article>
             <figure>
-              <div>
+              <div class="img_bis">
                 <img src="images/Stickers - En Vedette/étiquette carrée haute - père1.png" width=70% alt="sticker père 1">
               </div>
               <figcaption>
-                <h3>Sticker "carré" fête des pères</h3>
+                <h3>Sticker carré fête des pères</h3>
                 <p>Lot de 5 stickers : 2€40</p>
               </figcaption>
             </figure>
@@ -79,7 +79,7 @@
           <article>
             <figure>
               <div class="img">
-                <img src="images/Stickers - En Vedette/étiquette ovale - père2.png" width=70% alt="sticker père 2">
+                <img src="images/Stickers - En Vedette/étiquette ovale - père2.png" alt="sticker père 2">
               </div>
               <figcaption>
                 <h3>Sticker long fête des pères</h3>
@@ -89,11 +89,11 @@
           </article>
           <article>
             <figure>
-              <div class="img">
-                <img src="images/Stickers - En Vedette/étiquette ronde - père3.png" width=70% alt="sticker père 3">
+              <div class="img_bis">
+                <img src="images/Stickers - En Vedette/étiquette ronde - père3.png" alt="sticker père 3">
               </div>
               <figcaption>
-                <h3>Sticker ovale fête des pères</h3>
+                <h3>Sticker rond fête des pères</h3>
                 <p>Lot de 5 stickers : 2€40</p>
               </figcaption>
             </figure>
@@ -105,11 +105,11 @@
         <div class="row">
           <article>
             <figure>
-              <div class="img">
+              <div class="img_bis">
                 <img src="images/Stickers - En Vedette/étiquette carrée haute - mère1.png" alt="sticker mère 1">
               </div>
               <figcaption>
-                <h3>Sticker "carré" fête des mères</h3>
+                <h3>Sticker carré fête des mères</h3>
                 <p>Lot de 5 stickers : 2€40</p>
             </figure>
           </article>
@@ -126,22 +126,22 @@
           </article>
           <article>
             <figure>
-              <div class="img">
+              <div class="img_bis">
               <img src="images/Stickers - En Vedette/étiquette ronde - mère3.png" alt="sticker mère 3">
               </div>
               <figcaption>
-                <h3>Sticker ovale fête des mères</h3>
+                <h3>Sticker rond fête des mères</h3>
                 <p>Lot de 5 stickers : 2€40</p>
               </figcation>
             </figure>
           </article>
           <article>
             <figure>
-              <div class="img">
+              <div class="img_bis">
               <img src="images/Stickers - En Vedette/étiquette carrée haute - stvalentin1.png" alt="sticker saint valentin 1">
               </div>
               <figcaption>
-                <h3>Sticker "carré" Saint-Valentin</h3>
+                <h3>Sticker carré Saint-Valentin</h3>
                 <p>Lot de 5 stickers : 2€40</p>
               </figcaption>
             </figure>
@@ -159,11 +159,11 @@
           </article>
           <article>
             <figure>
-              <div class="img">
+              <div class="img_bis">
               <img src="images/Stickers - En Vedette/étiquette ronde - stvalentin3.png" alt="sticker saint valentin 3">
               </div>
               <figcaption>
-                <h3>Sticker ovale Saint-Valentin</h3>
+                <h3>Sticker rond Saint-Valentin</h3>
                 <p>Lot de 5 stickers : 2€40</p>
               </figcaption>
             </figure>

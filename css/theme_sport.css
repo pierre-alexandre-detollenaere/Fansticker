@@ -26,6 +26,7 @@
 
 }
 
+
 /*========= Body / article/images ==========*/
 
 body {
@@ -67,6 +68,14 @@ article img {
     width: 380px;
     height: 240px;
     padding: 0.5rem;
+}
+
+.img_bis {
+    margin:auto;
+    width: 217px;
+    height: 217px;
+    padding: 0.5rem;
+    margin-bottom: 25px;
 }
 
 figcaption h3 {

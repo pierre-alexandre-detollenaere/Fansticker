@@ -68,6 +68,14 @@ article img {
     padding: 0.5rem;
 }
 
+.img_bis {
+    margin:auto;
+    width: 217px;
+    height: 217px;
+    padding: 0.5rem;
+    margin-bottom: 25px;
+}
+
 figcaption h3 {
     font-size: 1.3rem;
     padding: 0.8rem;
