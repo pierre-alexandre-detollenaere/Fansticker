@@ -14,7 +14,7 @@
             <li><a class="lien" href="base.php">Accueil</a></li>
             <li>
             <div class="btn-group dropdown">
-                <button type="button" class="btn btn-secondary">
+                <button type="button" class="btn btn-third">
                     Nos Stickers
                 </button>
                 <button type="button" class="btn btn_third dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-expanded="false">
@@ -28,9 +28,6 @@
                     <button class="dropdown-item" type="button"><a href="#">Animaux</a></button>
                 </div>
             </div>
-<!--
-                <a class="lien" href="produits.html">Nos Stickers</a>
--->
             </li>
             <li><a class="lien" href="en_vedette.php">En Vedette</a></li>
             <li><a class="lien" href="contact.html">Nous contacter</a></li>
