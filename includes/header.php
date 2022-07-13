@@ -28,7 +28,7 @@
                                     <div class="dropdown-menu dropdown-menu-right dropdown-menu-lg-left">
                                         <button class="dropdown-item btn_third align-items-right" type="button"><a href="./theme_sport.php">Sport</a></button>
                                         <button class="dropdown-item btn_third" type="button"><a href="#">Évènements</a></button>
-                                        <button class="dropdown-item btn_third" type="button"><a href="#">Métiers</a></button>
+                                        <button class="dropdown-item btn_third" type="button"><a href="./theme_metier.php">Métiers</a></button>
                                         <button class="dropdown-item btn_third" type="button"><a href="#">Animaux</a></button>
                                     </div>
                                 </div>
