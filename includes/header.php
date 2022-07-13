@@ -11,30 +11,21 @@
     </div>
     <nav class="col-7">
         <ul>
-            <li><a class="lien" href="index.php">Accueil</a></li>
+            <li><a class="lien" href="base.php">Accueil</a></li>
             <li>
-            <div class="btn-group">
-                <button type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" data-display="static" aria-expanded="false">
+            <div class="btn-group dropdown">
+                <button type="button" class="btn btn-secondary">
                     Nos Stickers
                 </button>
-                <div class="dropdown-menu dropdown-menu-right dropdown-menu-lg-left">
-                    <div>
-                        <div class="btn-group dropright flex-column">
-                            <button type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" data-display="static" aria-expanded="false">
-                                Thèmes
-                            
-                                <div class="dropdown-menu">
-                                    <!-- Dropdown menu links -->
-                                    <div class="dropdown-menu dropdown-menu-right dropdown-menu-lg-left">
-                                        <button class="dropdown-item btn_third align-items-right" type="button"><a href="./theme_sport.php">Sport</a></button>
-                                        <button class="dropdown-item btn_third" type="button"><a href="#">Évènements</a></button>
-                                        <button class="dropdown-item btn_third" type="button"><a href="./theme_metier.php">Métiers</a></button>
-                                        <button class="dropdown-item btn_third" type="button"><a href="#">Animaux</a></button>
-                                    </div>
-                                </div>
-                            </button>
-                        </div>
-                    </div>
+                <button type="button" class="btn btn_third dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-expanded="false">
+                    <span class="sr-only">Toggle Dropdown</span>
+                </button>
+                <div class="dropdown-menu bouton">
+                    <!-- Dropdown menu links -->
+                    <button class="dropdown-item" type="button"><a href="./theme_sport.php">Sports</a></button>
+                    <button class="dropdown-item" type="button"><a href="#">Évènements</a></button>
+                    <button class="dropdown-item" type="button"><a href="./theme_metier.php">Métiers</a></button>
+                    <button class="dropdown-item" type="button"><a href="#">Animaux</a></button>
                 </div>
             </div>
 <!--
