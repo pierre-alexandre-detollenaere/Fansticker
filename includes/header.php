@@ -35,11 +35,11 @@
         <input type="text" class="search" id="rechercher" name="rechercher" placeholder="rechercher un thème">
     </nav>
     <div class="col-1">
-        <button type="button" class="connexion" href="connexion.html">S'identifier</button>
+        <button type="button" class="connexion" href="connexion.php">S'identifier</button>
     </div class="col-1">
     <div>
         <button type="button" class="bouton_panier">
-            <img class="panier" src=./images/panier_plein.png href="panier.html">
+            <img class="panier" src=./images/panier_plein.png><a href="panier.html">
         </button>
     </div>
     <!-- img src="./images/panier - orange.png" -->

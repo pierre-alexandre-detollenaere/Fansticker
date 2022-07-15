@@ -2,8 +2,9 @@
 
 .dimension {
     content: "";
-    display:"block";
-    margin-left: 700px;
+    display:flex;/*
+    margin-left: 700px;*/
+    margin: auto;
 }
 
 .color_carousel {
