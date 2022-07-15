@@ -36,23 +36,7 @@ body {
     background-position: center;
     background-position-y: 35%;
 }
-/*
-body {
-    background-image: url(../images/eberhard-grossgasteiger-jCL98LGaeoE-unsplash.jpg);
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: contain;
-    background-position: left;
-}
 
-main {
-    background-image: url(../images/eberhard-grossgasteiger-jCL98LGaeoE-unsplash.jpg);
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: contain;
-    background-position: right;
-}
-*/
 article {
     width: 20%;
     padding: 0.8rem;
