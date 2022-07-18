@@ -30,17 +30,16 @@
             </div>
             </li>
             <li><a class="lien" href="en_vedette.php">En Vedette</a></li>
-            <li><a class="lien" href="contact.html">Nous contacter</a></li>
+            <li><a class="lien" href="contact.php">Nous contacter</a></li>
         </ul>
         <input type="text" class="search" id="rechercher" name="rechercher" placeholder="rechercher un thème">
     </nav>
     <div class="col-1">
-        <button type="button" class="connexion" href="connexion.php">S'identifier</button>
+        <button type="button" class="connexion"><a href="connexion.php">S'identifier</a></button>
     </div class="col-1">
     <div>
         <button type="button" class="bouton_panier">
-            <img class="panier" src=./images/panier_plein.png><a href="panier.html">Panier</a>
+            <img class="panier validation-btn" src=./images/panier_plein.png><a href="panier.html">Panier</a>
         </button>
     </div>
-    <!-- img src="./images/panier - orange.png" -->
 </header>

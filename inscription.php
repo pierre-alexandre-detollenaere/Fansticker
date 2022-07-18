@@ -26,19 +26,18 @@
         <div></div>
         <div>
             <form action="#" method="post">
-            <h3>Se connecter</h3>
-            <label for="email" class="label-input">Email</label>
+            <h3>S'inscrire</h3>
+            <label for="firstname" class="label-input">Prénom<em>*</em></label>
+            <input type="text" class="formulaire_contact" name="firstname" id="firstname" placeholder="Prénom">
+            <label for="name" class="label-input">Nom<em>*</em></label>
+            <input type="text" class="formulaire_contact" name="name" id="name" placeholder="Nom">
+            <label for="email" class="label-input">Email<em>*</em></label>
             <input type="email" class="formulaire_contact" name="email" id="email" placeholder="Adresse email">
-            <label for="password" class="label-input">Mot de passe</label>
-            <input type="text" class="formulaire_contact" name="password" id="password" placeholder="Mot de passe">
-            <div>
-                <input type="submit" value="Se connecter">
-            </div>
+            <label for="password" class="label-input">Mot de passe<em>*</em></label>
+            <input type="password" class="formulaire_contact" name="password" id="password" placeholder="Mot de passe">
             </form>
         </div>
-        <p><a href="#">Mot de passe oublié ?</a></p>
-        <div></div>
-        <button type="button"><a href="inscription.php">S'inscrire</a></button>
+        <button type="button" class="validation-btn"><a href="inscription.php">Valider</a></button>
     </main>
     <?php
         include 'includes/footer.php';

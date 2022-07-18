@@ -135,7 +135,7 @@ nav a {
 }
 
 .bouton_panier {
-    color: #000000;
+    color: #000000!important;
     border : 0px solid #fbac80 ;
     border-radius : 6px;
     text-decoration: none;
@@ -152,6 +152,15 @@ nav a {
 .search {
     width: 1036px;
 }
+
+.validation-btn {
+    color:black;
+}
+
+.validation-btn:active {
+    color: black;
+}
+
 
 
 /*color:

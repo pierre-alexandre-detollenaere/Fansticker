@@ -4,12 +4,6 @@
     padding: 0;
 }
 
-body{
-    background: #fff;
-    display: flex;
-    flex-direction: column;
-}
-
 .titre-contact {
     margin: 50px 0 20px;
     text-align: center;
@@ -20,7 +14,7 @@ body{
 /* Formulaire */
 
 form {
-  width: 900px;
+  width: 600px;
   margin: 100px auto 50px;
   box-shadow: 0 10px 15px 5px rgba(0,0,0,0.2);  
   padding: 20px;
@@ -122,10 +116,17 @@ textarea {
 }
     input[type="text"] {
     display: block;
-    width: 80%;
-
 }
 
 em {
     color: red;
+}
+
+
+.validation-btn {
+    color:black;
+}
+
+.validation-btn:active {
+    color: black;
 }
