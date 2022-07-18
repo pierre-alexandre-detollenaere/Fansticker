@@ -39,7 +39,7 @@
     </div class="col-1">
     <div>
         <button type="button" class="bouton_panier">
-            <img class="panier" src=./images/panier_plein.png><a href="panier.html">
+            <img class="panier" src=./images/panier_plein.png><a href="panier.html">Panier</a>
         </button>
     </div>
     <!-- img src="./images/panier - orange.png" -->

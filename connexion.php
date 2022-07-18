@@ -19,13 +19,15 @@
 </head>
 <body class="filigrane" id="background">
     <?php
-        include 'includes/header.php';
+        include_once 'includes/header.php';
     ?>
     <main>
         <div></div>
         <form>
-        <label for="prenom" class="label-input">Votre prénom <em>*</em></label>
-        <input type="text" class="formulaire_contact" id="prenom" placeholder="Votre prénom">
+        <label for="firstname" class="label-input">Prénom <em>*</em></label>
+        <input type="text" class="formulaire_contact" id="firstname" placeholder="Votre prénom">
+        <label for="name" class="label-input">Nom <em>*</em></label>
+        <input type="text" class="formulaire_contact" id="name" placeholder="Votre nom">
 
         </form>
     </main>
