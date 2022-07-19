@@ -138,7 +138,7 @@ h2 {
 
 .btn-div-connexion {
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
     margin-right: 3rem;
 }
 
@@ -147,6 +147,7 @@ h2 {
     border: 1px solid black;
     border-radius: 5px;
     padding: 0.5rem;
+    margin: 0.5rem;
 }
 
 .forgot {
@@ -168,6 +169,7 @@ h2 {
     border-radius: 5px;
     padding: 0.5rem;
     color: black;
+    margin: 1rem;
 }
 
 .link-color{
