@@ -60,6 +60,7 @@ header p {
     margin-right: 3rem;
     font-weight: bolder;
     height: 54px;
+    align-items: center;
 }
 
 .bouton:hover {
@@ -134,6 +135,10 @@ nav a {
     width:fit-content;
 }
 
+.btn_third:hover {
+    color: #000000;
+}
+
 .bouton_panier {
     color: #000000!important;
     border : 0px solid #fbac80 ;
@@ -142,6 +147,7 @@ nav a {
     background-color: transparent;
     margin-top: 1rem;
     margin-right: 3rem;
+    font-weight: bold;
 }
 
 .panier {
@@ -153,13 +159,6 @@ nav a {
     width: 1036px;
 }
 
-.validation-btn {
-    color:black;
-}
-
-.validation-btn:active {
-    color: black;
-}
 
 
 

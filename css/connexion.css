@@ -15,7 +15,7 @@
 
 form {
   width: 600px;
-  margin: 100px auto 50px;
+  margin: 50px auto auto auto;
   box-shadow: 0 10px 15px 5px rgba(0,0,0,0.2);  
   padding: 20px;
   border-radius: 5px;
@@ -122,11 +122,59 @@ em {
     color: red;
 }
 
+/*========= Body / rajouts page connexion ==========*/
 
-.validation-btn {
-    color:black;
+.lien {
+    color: #000000;
+    text-decoration: none;
+    margin-top : 0.5rem;
 }
 
-.validation-btn:active {
+h2 {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+}
+
+.btn-div-connexion {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 3rem;
+}
+
+.btn-submit {
+    font-weight: 500;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 0.5rem;
+}
+
+.forgot {
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+
+.btn-div-subscribe {
+    display: flex;
+    justify-content: center;
+    margin: 1rem 1rem 3rem 24rem;
+
+}
+
+.btn-subscribe{
+    font-weight: 500;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 0.5rem;
     color: black;
+}
+
+.link-color{
+    color: black;
+}
+
+.link-color:hover {
+    color: black;
+    text-decoration: none;
 }

@@ -9,7 +9,7 @@
             </figcaption>-->
         </figure>
     </div>
-    <nav class="col-7">
+    <nav class="col-6.5">
         <ul>
             <li><a class="lien" href="base.php">Accueil</a></li>
             <li>
@@ -35,11 +35,11 @@
         <input type="text" class="search" id="rechercher" name="rechercher" placeholder="rechercher un thème">
     </nav>
     <div class="col-1">
-        <button type="button" class="connexion"><a href="connexion.php">S'identifier</a></button>
-    </div class="col-1">
+        <button type="button" class="connexion"><a class="btn_third" href="connexion.php">S'identifier</a></button>
+    </div class="col-1.5">
     <div>
         <button type="button" class="bouton_panier">
-            <img class="panier validation-btn" src=./images/panier_plein.png><a href="panier.html">Panier</a>
+            <img class="panier" src=./images/panier_plein.png><a class="bouton_panier" href="panier.html">Panier</a>
         </button>
     </div>
 </header>
