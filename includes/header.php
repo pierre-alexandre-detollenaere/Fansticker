@@ -23,9 +23,13 @@
                 <div class="dropdown-menu bouton">
                     <!-- Dropdown menu links -->
                     <button class="dropdown-item" type="button"><a href="./theme_sport.php">Sports</a></button>
-                    <button class="dropdown-item" type="button"><a href="#">Évènements</a></button>
+                    <button class="dropdown-item" type="button"><a href="#">Anniversaire</a></button>
+                    <button class="dropdown-item" type="button"><a href="#">Naissance</a></button>
+                    <button class="dropdown-item" type="button"><a href="#">Bâptême</a></button>
+                    <button class="dropdown-item" type="button"><a href="#">Mariage</a></button>
                     <button class="dropdown-item" type="button"><a href="./theme_metier.php">Métiers</a></button>
                     <button class="dropdown-item" type="button"><a href="#">Animaux</a></button>
+                    <button class="dropdown-item" type="button"><a href="#">Divers</a></button>
                 </div>
             </div>
             </li>
