@@ -83,3 +83,79 @@ section div {
     display: flex;
     justify-content: space-around;
 }
+
+label {
+    margin-left: 1rem;
+}
+
+input {
+    width: 50px;
+}
+
+figcaption button {
+    border: 1px solid black;
+    border-radius: 6px;
+    background-color: #fbac80;
+}
+
+/******************** Media Query ******************/
+
+@media screen and (max-width: 1200px) {
+    /* body {
+        width: 55%;
+    } */
+
+    /* header nav {
+        display: none;
+    } */
+
+    p.btn {
+        display: block;
+    }
+
+    section {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    figure div.img {
+        height: 120px;
+    }
+
+}
+
+@media screen and (max-width: 1000px) {
+
+    /* section {
+        display: block;
+    } */
+    /* body {
+        width: 100%;
+    } */
+
+    figure div.img {
+        height: 180px;
+    }
+
+}
+
+@media screen and (max-width: 767px) {
+    section {
+        display: block;
+    }
+
+    /* body {
+        width: 100%;
+    } */
+
+    figure div.img {
+        height: 260px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    figure div.img {
+        height: 170px;
+    }
+
+}

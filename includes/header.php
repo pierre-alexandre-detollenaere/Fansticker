@@ -25,7 +25,7 @@
                     <button class="dropdown-item" type="button"><a href="./theme_sport.php">Sports</a></button>
                     <button class="dropdown-item" type="button"><a href="#">Anniversaire</a></button>
                     <button class="dropdown-item" type="button"><a href="#">Naissance</a></button>
-                    <button class="dropdown-item" type="button"><a href="#">Bâptême</a></button>
+                    <button class="dropdown-item" type="button"><a href="#">Baptême</a></button>
                     <button class="dropdown-item" type="button"><a href="#">Mariage</a></button>
                     <button class="dropdown-item" type="button"><a href="./theme_metier.php">Métiers</a></button>
                     <button class="dropdown-item" type="button"><a href="#">Animaux</a></button>
@@ -43,7 +43,7 @@
     </div class="col-1.5">
     <div>
         <button type="button" class="bouton_panier">
-            <img class="panier" src=./images/panier_plein.png><a class="bouton_panier" href="panier.html">Panier</a>
+            <img class="panier" src=./images/panier_plein.png><a class="bouton_panier" href="panier2.php">Panier</a>
         </button>
     </div>
 </header>
