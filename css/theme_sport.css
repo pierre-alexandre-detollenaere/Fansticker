@@ -48,23 +48,24 @@ article {
     margin: 4rem;
 }
 
-article img {
+article img {/*
     width: 450px;
-    height: 240px;
+    height: 240px;*/
+    width: 530px;
+    height: 267px;
     padding: 0.5rem;
 }
 
 .img_bis {
     margin:auto;
-    width: 217px;
-    height: 217px;
-    padding: 0.5rem;
-    margin-bottom: 25px;
+    width: 300px;
+    height: 225px;
+    margin-bottom: 42px;
 }
 
 figcaption h3 {
-    font-size: 1.3rem;/*
-    padding: 0.8rem;*/
+    font-size: 1.3rem;
+    padding: 0.8rem;
     
 }
 
