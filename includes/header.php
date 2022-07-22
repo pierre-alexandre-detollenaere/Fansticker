@@ -11,7 +11,7 @@
     </div>
     <nav class="col-6">
         <ul>
-            <li><a class="lien" href="base.php">Accueil</a></li>
+            <li><a class="lien" href="accueil.php">Accueil</a></li>
             <li>
             <div class="btn-group dropdown">
                 <button type="button" class="btn btn-third">
@@ -23,10 +23,10 @@
                 <div class="dropdown-menu bouton">
                     <!-- Dropdown menu links -->
                     <button class="dropdown-item" type="button"><a href="./theme_sport.php">Sports</a></button>
-                    <button class="dropdown-item" type="button"><a href="#">Anniversaire</a></button>
-                    <button class="dropdown-item" type="button"><a href="#">Naissance</a></button>
-                    <button class="dropdown-item" type="button"><a href="#">Baptême</a></button>
-                    <button class="dropdown-item" type="button"><a href="#">Mariage</a></button>
+                    <button class="dropdown-item" type="button"><a href="./theme_anniversaire.php">Anniversaire</a></button>
+                    <button class="dropdown-item" type="button"><a href="./theme_naissance.php">Naissance</a></button>
+                    <button class="dropdown-item" type="button"><a href="./theme_bapteme.php">Baptême</a></button>
+                    <button class="dropdown-item" type="button"><a href="./theme_mariage.php">Mariage</a></button>
                     <button class="dropdown-item" type="button"><a href="./theme_metier.php">Métiers</a></button>
                     <button class="dropdown-item" type="button"><a href="#">Animaux</a></button>
                     <button class="dropdown-item" type="button"><a href="#">Divers</a></button>
