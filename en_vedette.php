@@ -73,9 +73,9 @@
               <figcaption>
                 <h3>Sticker carré fête des pères</h3>
                 <p>Lot de 6 stickers : 4€99<br>Taille : L 4 cm, H 4 cm</p>
-                <label for="panier" class="label-input">Ajouter au panier</label>
+                <label for="panier" class="label-input">Quantité</label>
                 <input type="number" id="panier" min="1" max="10" required>
-                <button onclick="fpanier()">Valider</button>
+                <button onclick="fpanier()">Ajouter au panier</button>
               </figcaption>
             </figure>
           </article>
@@ -87,9 +87,9 @@
               <figcaption>
                 <h3>Sticker long fête des pères</h3>
                 <p>Lot de 6 stickers : 4€99<br>Taille : L 6 cm, H 4 cm</p>
-                <label for="panier" class="label-input">Ajouter au panier</label>
+                <label for="panier" class="label-input">Quantité</label>
                 <input type="number" id="panier" min="1" max="10" required>
-                <button onclick="fpanier()">Valider</button>
+                <button onclick="fpanier()">Ajouter au panier</button>
               </figcaption>
             </figure>
           </article>
@@ -101,9 +101,9 @@
               <figcaption>
                 <h3>Sticker rond fête des pères</h3>
                 <p>Lot de 6 stickers : 4€99<br>Taille : L 4 cm, H 4 cm</p>
-                <label for="panier" class="label-input">Ajouter au panier</label>
+                <label for="panier" class="label-input">Quantité</label>
                 <input type="number" id="panier" min="1" max="10" required>
-                <button onclick="fpanier()">Valider</button>
+                <button onclick="fpanier()">Ajouter au panier</button>
               </figcaption>
             </figure>
           </article>
@@ -120,9 +120,9 @@
               <figcaption>
                 <h3>Sticker carré fête des mères</h3>
                 <p>Lot de 6 stickers : 4€99<br>Taille : L 4 cm, H 4 cm</p>
-                <label for="panier" class="label-input">Ajouter au panier</label>
+                <label for="panier" class="label-input">Quantité</label>
                 <input type="number" id="panier" min="1" max="10" required>
-                <button onclick="fpanier()">Valider</button>
+                <button onclick="fpanier()">Ajouter au panier</button>
             </figure>
           </article>
           <article>
@@ -133,9 +133,9 @@
               <figcaption>
                 <h3>Sticker long fête des mères</h3>
                 <p>Lot de 6 stickers : 4€99<br>Taille : L 6 cm, H 4 cm</p>
-                <label for="panier" class="label-input">Ajouter au panier</label>
+                <label for="panier" class="label-input">Quantité</label>
                 <input type="number" id="panier" min="1" max="10" required>
-                <button onclick="fpanier()">Valider</button>
+                <button onclick="fpanier()">Ajouter au panier</button>
               </figcaption>
             </figure>
           </article>
@@ -147,9 +147,9 @@
               <figcaption>
                 <h3>Sticker rond fête des mères</h3>
                 <p>Lot de 6 stickers : 4€99<br>Taille : L 4 cm, H 4 cm</p>
-                <label for="panier" class="label-input">Ajouter au panier</label>
+                <label for="panier" class="label-input">Quantité</label>
                 <input type="number" id="panier" min="1" max="10" required>
-                <button onclick="fpanier()">Valider</button>
+                <button onclick="fpanier()">Ajouter au panier</button>
               </figcation>
             </figure>
           </article>
@@ -161,9 +161,9 @@
               <figcaption>
                 <h3>Sticker carré Saint-Valentin</h3>
                 <p>Lot de 6 stickers : 4€99<br>Taille : L 4 cm, H 4 cm</p>
-                <label for="panier" class="label-input">Ajouter au panier</label>
+                <label for="panier" class="label-input">Quantité</label>
                 <input type="number" id="panier" min="1" max="10" required>
-                <button onclick="fpanier()">Valider</button>
+                <button onclick="fpanier()">Ajouter au panier</button>
               </figcaption>
             </figure>
           </article>
@@ -175,9 +175,9 @@
               <figcaption>
                 <h3>Sticker long Saint-Valentin</h3>
                 <p>Lot de 6 stickers : 4€99<br>Taille : L 6 cm, H 4 cm</p>
-                <label for="panier" class="label-input">Ajouter au panier</label>
+                <label for="panier" class="label-input">Quantité</label>
                 <input type="number" id="panier" min="1" max="10" required>
-                <button onclick="fpanier()">Valider</button>
+                <button onclick="fpanier()">Ajouter au panier</button>
               </figcaption>
             </figure>
           </article>
@@ -189,9 +189,9 @@
               <figcaption>
                 <h3>Sticker rond Saint-Valentin</h3>
                 <p>Lot de 6 stickers : 4€99<br>Taille : L 4 cm, H 4 cm</p>
-                <label for="panier" class="label-input">Ajouter au panier</label>
+                <label for="panier" class="label-input">Quantité</label>
                 <input type="number" id="panier" min="1" max="10" required>
-                <button onclick="fpanier()">Valider</button>
+                <button onclick="fpanier()">Ajouter au panier</button>
               </figcaption>
             </figure>
           </article>
