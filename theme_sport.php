@@ -33,10 +33,10 @@
                     </div>
                         <figcaption>
                             <h3>Sticker carré Athlète</h3>
-                            <p>Lot de 6 stickers : 4€99<br>Taille : L 4 cm, H 4 cm</p>
-                            <label for="panier" class="label-input">Ajouter au panier</label>
+                            <p>Lot de 6 stickers<br>Taille : L 4 cm, H 4 cm<br>Prix: 4€99</p>
+                            <label for="panier" class="label-input">Quantité</label>
                             <input type="number" id="panier" min="1" max="10" required>
-                            <button onclick="fpanier()">Valider</button>
+                            <button onclick="fpanier()">Ajouter au panier</button>
                         </figcaption>
                     </figure>
                 </article>
@@ -47,10 +47,10 @@
                     </div>
                         <figcaption>
                             <h3>Sticker long Athlète</h3>
-                            <p>Lot de 6 stickers : 4€99<br>Taille : L 6 cm, H 4 cm</p>
-                            <label for="panier" class="label-input">Ajouter au panier</label>
+                            <p>Lot de 6 stickers<br>Taille : L 6 cm, H 4 cm<br>Prix: 4€99</p>
+                            <label for="panier" class="label-input">Quantité</label>
                             <input type="number" id="panier" min="1" max="10" required>
-                            <button onclick="fpanier()">Valider</button>
+                            <button onclick="fpanier()">Ajouter au panier</button>
                         </figcaption>
                     </figure>
                 </article>
@@ -61,10 +61,10 @@
                     </div>
                         <figcaption>
                             <h3>Sticker losange Athlète</h3>
-                            <p>Lot de 6 stickers : 4€99<br>Taille : L 4 cm, H 4 cm</p>
-                            <label for="panier" class="label-input">Ajouter au panier</label>
+                            <p>Lot de 6 stickers<br>Taille : L 4 cm, H 4 cm<br>Prix: 4€99</p>
+                            <label for="panier" class="label-input">Quantité</label>
                             <input type="number" id="panier" min="1" max="10" required>
-                            <button onclick="fpanier()">Valider</button>
+                            <button onclick="fpanier()">Ajouter au panier</button>
                         </figcaption>
                     </figure>
                 </article>
@@ -75,10 +75,10 @@
                         </div>
                         <figcaption>
                             <h3>Sticker rond Athlète</h3>
-                            <p>Lot de 6 stickers : 4€99<br>Taille : L 4 cm, H 4 cm</p>
-                            <label for="panier" class="label-input">Ajouter au panier</label>
+                            <p>Lot de 6 stickers<br>Taille : L 4 cm, H 4 cm<br>Prix: 4€99</p>
+                            <label for="panier" class="label-input">Quantité</label>
                             <input type="number" id="panier" min="1" max="10" required>
-                            <button onclick="fpanier()">Valider</button>
+                            <button onclick="fpanier()">Ajouter au panier</button>
                         </figcaption>
                     </figure>
                 </article>
@@ -95,10 +95,10 @@
                     </div>
                         <figcaption>
                             <h3>Sticker carré Basket</h3>
-                            <p>Lot de 6 stickers : 4€99<br>Taille : L 4 cm, H 4 cm</p>
-                            <label for="panier" class="label-input">Ajouter au panier</label>
+                            <p>Lot de 6 stickers<br>Taille : L 4 cm, H 4 cm<br>Prix: 4€99</p>
+                            <label for="panier" class="label-input">Quantité</label>
                             <input type="number" id="panier" min="1" max="10" required>
-                            <button onclick="fpanier()">Valider</button>
+                            <button onclick="fpanier()">Ajouter au panier</button>
                         </figcaption>
                     </figure>
                 </article>
@@ -109,10 +109,10 @@
                     </div>
                         <figcaption>
                             <h3>Sticker long Basket</h3>
-                            <p>Lot de 6 stickers : 4€99<br>Taille : L 6 cm, H 4 cm</p>
-                            <label for="panier" class="label-input">Ajouter au panier</label>
+                            <p>Lot de 6 stickers<br>Taille : L 6 cm, H 4 cm<br>Prix: 4€99</p>
+                            <label for="panier" class="label-input">Quantité</label>
                             <input type="number" id="panier" min="1" max="10" required>
-                            <button onclick="fpanier()">Valider</button>
+                            <button onclick="fpanier()">Ajouter au panier</button>
                         </figcaption>
                     </figure>
                 </article>
@@ -123,10 +123,10 @@
                     </div>
                         <figcaption>
                             <h3>Sticker losange Basket</h3>
-                            <p>Lot de 6 stickers : 4€99<br>Taille : L 4 cm, H 4 cm</p>
-                            <label for="panier" class="label-input">Ajouter au panier</label>
+                            <p>Lot de 6 stickers<br>Taille : L 4 cm, H 4 cm<br>Prix: 4€99</p>
+                            <label for="panier" class="label-input">Quantité</label>
                             <input type="number" id="panier" min="1" max="10" required>
-                            <button onclick="fpanier()">Valider</button>
+                            <button onclick="fpanier()">Ajouter au panier</button>
                         </figcaption>
                     </figure>
                 </article>
@@ -137,10 +137,10 @@
                         </div>
                         <figcaption>
                             <h3>Sticker rond Basket</h3>
-                            <p>Lot de 6 stickers : 4€99<br>Taille : L 4 cm, H 4 cm</p>
-                            <label for="panier" class="label-input">Ajouter au panier</label>
+                            <p>Lot de 6 stickers<br>Taille : L 4 cm, H 4 cm<br>Prix: 4€99</p>
+                            <label for="panier" class="label-input">Quantité</label>
                             <input type="number" id="panier" min="1" max="10" required>
-                            <button onclick="fpanier()">Valider</button>
+                            <button onclick="fpanier()">Ajouter au panier</button>
                         </figcaption>
                     </figure>
                 </article>
@@ -157,10 +157,10 @@
                     </div>
                         <figcaption>
                             <h3>Sticker carré Football</h3>
-                            <p>Lot de 6 stickers : 4€99<br>Taille : L 4 cm, H 4 cm</p>
-                            <label for="panier" class="label-input">Ajouter au panier</label>
+                            <p>Lot de 6 stickers<br>Taille : L 4 cm, H 4 cm<br>Prix: 4€99</p>
+                            <label for="panier" class="label-input">Quantité</label>
                             <input type="number" id="panier" min="1" max="10" required>
-                            <button onclick="fpanier()">Valider</button>
+                            <button onclick="fpanier()">Ajouter au panier</button>
                         </figcaption>
                     </figure>
                 </article>
@@ -171,10 +171,10 @@
                     </div>
                         <figcaption>
                             <h3>Sticker long Football</h3>
-                            <p>Lot de 6 stickers : 4€99<br>Taille : L 6 cm, H 4 cm</p>
-                            <label for="panier" class="label-input">Ajouter au panier</label>
+                            <p>Lot de 6 stickers<br>Taille : L 6 cm, H 4 cm<br>Prix: 4€99</p>
+                            <label for="panier" class="label-input">Quantité</label>
                             <input type="number" id="panier" min="1" max="10" required>
-                            <button onclick="fpanier()">Valider</button>
+                            <button onclick="fpanier()">Ajouter au panier</button>
                         </figcaption>
                     </figure>
                 </article>
@@ -185,10 +185,10 @@
                     </div>
                         <figcaption>
                             <h3>Sticker losange Football</h3>
-                            <p>Lot de 6 stickers : 4€99<br>Taille : L 4 cm, H 4 cm</p>
-                            <label for="panier" class="label-input">Ajouter au panier</label>
+                            <p>Lot de 6 stickers<br>Taille : L 4 cm, H 4 cm<br>Prix: 4€99</p>
+                            <label for="panier" class="label-input">Quantité</label>
                             <input type="number" id="panier" min="1" max="10" required>
-                            <button onclick="fpanier()">Valider</button>
+                            <button onclick="fpanier()">Ajouter au panier</button>
                         </figcaption>
                     </figure>
                 </article>
@@ -199,10 +199,10 @@
                         </div>
                         <figcaption>
                             <h3>Sticker rond Football</h3>
-                            <p>Lot de 6 stickers : 4€99<br>Taille : L 4 cm, H 4 cm</p>
-                            <label for="panier" class="label-input">Ajouter au panier</label>
+                            <p>Lot de 6 stickers<br>Taille : L 4 cm, H 4 cm<br>Prix: 4€99</p>
+                            <label for="panier" class="label-input">Quantité</label>
                             <input type="number" id="panier" min="1" max="10" required>
-                            <button onclick="fpanier()">Valider</button>
+                            <button onclick="fpanier()">Ajouter au panier</button>
                         </figcaption>
                     </figure>
                 </article>
@@ -219,10 +219,10 @@
                     </div>
                         <figcaption>
                             <h3>Sticker carré Golf</h3>
-                            <p>Lot de 6 stickers : 4€99<br>Taille : L 4 cm, H 4 cm</p>
-                            <label for="panier" class="label-input">Ajouter au panier</label>
+                            <p>Lot de 6 stickers<br>Taille : L 4 cm, H 4 cm<br>Prix: 4€99</p>
+                            <label for="panier" class="label-input">Quantité</label>
                             <input type="number" id="panier" min="1" max="10" required>
-                            <button onclick="fpanier()">Valider</button>
+                            <button onclick="fpanier()">Ajouter au panier</button>
                         </figcaption>
                     </figure>
                 </article>
@@ -233,10 +233,10 @@
                     </div>
                         <figcaption>
                             <h3>Sticker long Golf</h3>
-                            <p>Lot de 6 stickers : 4€99<br>Taille : L 6 cm, H 4 cm</p>
-                            <label for="panier" class="label-input">Ajouter au panier</label>
+                            <p>Lot de 6 stickers<br>Taille : L 6 cm, H 4 cm<br>Prix: 4€99</p>
+                            <label for="panier" class="label-input">Quantité</label>
                             <input type="number" id="panier" min="1" max="10" required>
-                            <button onclick="fpanier()">Valider</button>
+                            <button onclick="fpanier()">Ajouter au panier</button>
                         </figcaption>
                     </figure>
                 </article>
@@ -247,10 +247,10 @@
                     </div>
                         <figcaption>
                             <h3>Sticker losange Golf</h3>
-                            <p>Lot de 6 stickers : 4€99<br>Taille : L 4 cm, H 4 cm</p>
-                            <label for="panier" class="label-input">Ajouter au panier</label>
+                            <p>Lot de 6 stickers<br>Taille : L 4 cm, H 4 cm<br>Prix: 4€99</p>
+                            <label for="panier" class="label-input">Quantité</label>
                             <input type="number" id="panier" min="1" max="10" required>
-                            <button onclick="fpanier()">Valider</button>
+                            <button onclick="fpanier()">Ajouter au panier</button>
                         </figcaption>
                     </figure>
                 </article>
@@ -261,10 +261,10 @@
                         </div>
                         <figcaption>
                             <h3>Sticker rond Golf</h3>
-                            <p>Lot de 6 stickers : 4€99<br>Taille : L 4 cm, H 4 cm</p>
-                            <label for="panier" class="label-input">Ajouter au panier</label>
+                            <p>Lot de 6 stickers<br>Taille : L 4 cm, H 4 cm<br>Prix: 4€99</p>
+                            <label for="panier" class="label-input">Quantité</label>
                             <input type="number" id="panier" min="1" max="10" required>
-                            <button onclick="fpanier()">Valider</button>
+                            <button onclick="fpanier()">Ajouter au panier</button>
                         </figcaption>
                     </figure>
                 </article>
@@ -281,10 +281,10 @@
                     </div>
                         <figcaption>
                             <h3>Sticker carré Rugby</h3>
-                            <p>Lot de 6 stickers : 4€99<br>Taille : L 4 cm, H 4 cm</p>
-                            <label for="panier" class="label-input">Ajouter au panier</label>
+                            <p>Lot de 6 stickers<br>Taille : L 4 cm, H 4 cm<br>Prix: 4€99</p>
+                            <label for="panier" class="label-input">Quantité</label>
                             <input type="number" id="panier" min="1" max="10" required>
-                            <button onclick="fpanier()">Valider</button>
+                            <button onclick="fpanier()">Ajouter au panier</button>
                         </figcaption>
                     </figure>
                 </article>
@@ -295,10 +295,10 @@
                     </div>
                         <figcaption>
                             <h3>Sticker long Rugby</h3>
-                            <p>Lot de 6 stickers : 4€99<br>Taille : L 6 cm, H 4 cm</p>
-                            <label for="panier" class="label-input">Ajouter au panier</label>
+                            <p>Lot de 6 stickers<br>Taille : L 6 cm, H 4 cm<br>Prix: 4€99</p>
+                            <label for="panier" class="label-input">Quantité</label>
                             <input type="number" id="panier" min="1" max="10" required>
-                            <button onclick="fpanier()">Valider</button>
+                            <button onclick="fpanier()">Ajouter au panier</button>
                         </figcaption>
                     </figure>
                 </article>
@@ -309,10 +309,10 @@
                     </div>
                         <figcaption>
                             <h3>Sticker losange Rugby</h3>
-                            <p>Lot de 6 stickers : 4€99<br>Taille : L 4 cm, H 4 cm</p>
-                            <label for="panier" class="label-input">Ajouter au panier</label>
+                            <p>Lot de 6 stickers<br>Taille : L 4 cm, H 4 cm<br>Prix: 4€99</p>
+                            <label for="panier" class="label-input">Quantité</label>
                             <input type="number" id="panier" min="1" max="10" required>
-                            <button onclick="fpanier()">Valider</button>
+                            <button onclick="fpanier()">Ajouter au panier</button>
                         </figcaption>
                     </figure>
                 </article>
@@ -323,10 +323,10 @@
                         </div>
                         <figcaption>
                             <h3>Sticker rond Rugby</h3>
-                            <p>Lot de 6 stickers : 4€99<br>Taille : L 4 cm, H 4 cm</p>
-                            <label for="panier" class="label-input">Ajouter au panier</label>
+                            <p>Lot de 6 stickers<br>Taille : L 4 cm, H 4 cm<br>Prix: 4€99</p>
+                            <label for="panier" class="label-input">Quantité</label>
                             <input type="number" id="panier" min="1" max="10" required>
-                            <button onclick="fpanier()">Valider</button>
+                            <button onclick="fpanier()">Ajouter au panier</button>
                         </figcaption>
                     </figure>
                 </article>
@@ -343,10 +343,10 @@
                     </div>
                         <figcaption>
                             <h3>Sticker carré Tennis</h3>
-                            <p>Lot de 6 stickers : 4€99<br>Taille : L 4 cm, H 4 cm</p>
-                            <label for="panier" class="label-input">Ajouter au panier</label>
+                            <p>Lot de 6 stickers<br>Taille : L 4 cm, H 4 cm<br>Prix: 4€99</p>
+                            <label for="panier" class="label-input">Quantité</label>
                             <input type="number" id="panier" min="1" max="10" required>
-                            <button onclick="fpanier()">Valider</button>
+                            <button onclick="fpanier()">Ajouter au panier</button>
                         </figcaption>
                     </figure>
                 </article>
@@ -357,10 +357,10 @@
                     </div>
                         <figcaption>
                             <h3>Sticker long Tennis</h3>
-                            <p>Lot de 6 stickers : 4€99<br>Taille : L 6 cm, H 4 cm</p>
-                            <label for="panier" class="label-input">Ajouter au panier</label>
+                            <p>Lot de 6 stickers<br>Taille : L 6 cm, H 4 cm<br>Prix: 4€99</p>
+                            <label for="panier" class="label-input">Quantité</label>
                             <input type="number" id="panier" min="1" max="10" required>
-                            <button onclick="fpanier()">Valider</button>
+                            <button onclick="fpanier()">Ajouter au panier</button>
                         </figcaption>
                     </figure>
                 </article>
@@ -371,10 +371,10 @@
                     </div>
                         <figcaption>
                             <h3>Sticker losange Tennis</h3>
-                            <p>Lot de 6 stickers : 4€99<br>Taille : L 4 cm, H 4 cm</p>
-                            <label for="panier" class="label-input">Ajouter au panier</label>
+                            <p>Lot de 6 stickers<br>Taille : L 4 cm, H 4 cm<br>Prix: 4€99</p>
+                            <label for="panier" class="label-input">Quantité</label>
                             <input type="number" id="panier" min="1" max="10" required>
-                            <button onclick="fpanier()">Valider</button>
+                            <button onclick="fpanier()">Ajouter au panier</button>
                         </figcaption>
                     </figure>
                 </article>
@@ -385,10 +385,10 @@
                         </div>
                         <figcaption>
                             <h3>Sticker rond Tennis</h3>
-                            <p>Lot de 6 stickers : 4€99<br>Taille : L 4 cm, H 4 cm</p>
-                            <label for="panier" class="label-input">Ajouter au panier</label>
+                            <p>Lot de 6 stickers<br>Taille : L 4 cm, H 4 cm<br>Prix: 4€99</p>
+                            <label for="panier" class="label-input">Quantité</label>
                             <input type="number" id="panier" min="1" max="10" required>
-                            <button onclick="fpanier()">Valider</button>
+                            <button onclick="fpanier()">Ajouter au panier</button>
                         </figcaption>
                     </figure>
                 </article>

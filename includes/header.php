@@ -9,7 +9,7 @@
             </figcaption>-->
         </figure>
     </div>
-    <nav class="col-6.5">
+    <nav class="col-6">
         <ul>
             <li><a class="lien" href="base.php">Accueil</a></li>
             <li>
@@ -40,7 +40,7 @@
     </nav>
     <div class="col-1">
         <button type="button" class="connexion"><a class="btn_third" href="connexion.php">S'identifier</a></button>
-    </div class="col-1.5">
+    </div class="col-2">
     <div>
         <button type="button" class="bouton_panier">
             <img class="panier" src=./images/panier_plein.png><a class="bouton_panier" href="panier2.php">Panier</a>
