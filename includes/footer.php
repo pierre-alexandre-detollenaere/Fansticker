@@ -23,12 +23,12 @@
         <li><a class="lien" href="service_client.php">Service client</a></li>
         <li><a class="lien" href="service_client.php">Suivi de commande</a></li>
         <li><a class="lien" href="faq.php">FAQ</a></li>
-        <img class="paiement" src="./images/Visa-Logo-Transparent-Images.png" alt="Visa Mastercard">
+        <img class="paiement" src="../images/Visa-Logo-Transparent-Images.png" alt="Visa Mastercard">
     </section>
     <section class="col-2">
         <h3>Retrouvez-nous sur</h3>
-        <img class="reseau1" src="./images/linkedin.png" alt="linkedin">
-        <img class= "reseau2" src="./images/facebook-instagram-twitter.png" alt="logo facebook-instagram-tweeter">
+        <img class="reseau1" src="../images/linkedin.png" alt="linkedin">
+        <img class= "reseau2" src="../images/facebook-instagram-twitter.png" alt="logo facebook-instagram-tweeter">
     </section>
     <div class="col-1.5"></div>
 </ul>

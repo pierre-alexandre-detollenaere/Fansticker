@@ -3,7 +3,7 @@
 <header class="row col-12 d-none d-md-flex justify-content-between text-orange no-gutters">
     <div class="col-3">
         <figure>
-            <img id="logo" src="./images/Fansticker_final_1.png" alt="logo site fansticker">
+            <img id="logo" src="../images/Fansticker_final_1.png" alt="logo site fansticker">
             <!--<figcaption id="slogan">
                 Des étiquettes pour faire plaisir
             </figcaption>-->
@@ -43,7 +43,7 @@
     </div class="col-2">
     <div>
         <button type="button" class="bouton_panier">
-            <img class="panier" src=./images/panier_plein.png><a class="bouton_panier" href="panier2.php">Panier</a>
+            <img class="panier" src=../images/panier_plein.png><a class="bouton_panier" href="panier2.php">Panier</a>
         </button>
     </div>
 </header>

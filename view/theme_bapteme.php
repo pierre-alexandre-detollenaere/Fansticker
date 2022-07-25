@@ -8,9 +8,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/footer.css">
-    <link rel="stylesheet" href="./css/header.css">
-    <link rel="stylesheet" href="./css/themes.css">
+    <link rel="stylesheet" href="../css/footer.css">
+    <link rel="stylesheet" href="../css/header.css">
+    <link rel="stylesheet" href="../css/themes.css">
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
@@ -29,7 +29,7 @@
 </head>
 <body class="filigrane" id="background">
     <?php
-        include_once "includes/header.php";
+        include_once "../includes/header.php";
     ?>
     <main>   
 <section>  
@@ -41,7 +41,7 @@
         <figure>
             <figcaption>       
                 <div>  
-                    <img src="images/Stickers_Bapteme/b1.png" alt="baptême 1">
+                    <img src="../images/Stickers_Bapteme/b1.png" alt="baptême 1">
                 </div>
                 <p>
                     <h4 class="theme-h4">Lot de : 6 Stickers Petits pieds</h4>
@@ -59,7 +59,7 @@
         <figure>
             <figcaption>
                 <div>    
-                    <img src="images/Stickers_Bapteme/b2.png" alt="baptême 2">
+                    <img src="../images/Stickers_Bapteme/b2.png" alt="baptême 2">
                 </div>
                 <p>
                     <h4 class="theme-h4">Lot de : 6 Stickers Ma lumière</h4>
@@ -77,7 +77,7 @@
         <figure>
             <figcaption>
                 <div>
-                    <img src="images/Stickers_Bapteme/b3.png" alt="baptême 3">
+                    <img src="../images/Stickers_Bapteme/b3.png" alt="baptême 3">
                 </div>
                 <p>
                     <h4 class="theme-h4">Lot de : 6 Stickers Bébé</h4>
@@ -95,7 +95,7 @@
         <figure>
             <figcaption>
                 <div>
-                    <img src="images/Stickers_Bapteme/b4.png" alt="baptême 4">
+                    <img src="../images/Stickers_Bapteme/b4.png" alt="baptême 4">
                 </div>     
                 <p>
                     <h4 class="theme-h4">Lot de : 6 Stickers Mon petit ange</h4>
@@ -113,7 +113,7 @@
         <figure>
             <figcaption>
                 <div>
-                    <img src="images/Stickers_Bapteme/b5.png" alt="baptême 5">
+                    <img src="../images/Stickers_Bapteme/b5.png" alt="baptême 5">
                 </div>
                 <p>
                     <h4 class="theme-h4">Lot de : 6 Stickers Garçon</h4>
@@ -131,7 +131,7 @@
         <figure>
             <figcaption>
                 <div>
-                    <img src="images/Stickers_Bapteme/b6.png" alt="baptême 6">
+                    <img src="../images/Stickers_Bapteme/b6.png" alt="baptême 6">
                 </div>
                 <p>
                     <h4 class="theme-h4">Lot de : 6 Stickers Mon petit arc-en-ciel</h4>
@@ -151,7 +151,7 @@
 </main> 
 
     <?php
-        include_once "includes/footer.php";
+        include_once "../includes/footer.php";
     ?>
 </body>
 

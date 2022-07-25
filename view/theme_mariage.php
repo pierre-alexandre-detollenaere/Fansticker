@@ -8,9 +8,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/footer.css">
-    <link rel="stylesheet" href="./css/header.css">
-    <link rel="stylesheet" href="./css/theme_mariage.css">
+    <link rel="stylesheet" href="../css/footer.css">
+    <link rel="stylesheet" href="../css/header.css">
+    <link rel="stylesheet" href="../css/theme_mariage.css">
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js" integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+" crossorigin="anonymous"></script>
@@ -20,7 +20,7 @@
 </head>
 <body class="filigrane" id="background">
     <?php
-        include_once "includes/header.php";
+        include_once "../includes/header.php";
     ?>
     <main>
         <section class="row">
@@ -30,7 +30,7 @@
                 <article>
                     <figure>
                     <div class="img_bis">
-                        <img src="images/images_mariage/classiccarre.png" alt="sticker Mariage classique carré">
+                        <img src="../images/images_mariage/classiccarre.png" alt="sticker Mariage classique carré">
                     </div>
                         <figcaption>
                             <h3>Sticker carré Mariage</h3>
@@ -44,7 +44,7 @@
                 <article>
                     <figure>
                     <div class="img">
-                        <img src="images/images_mariage/classiccoeur.png" alt="sticker mariage classique coeur">
+                        <img src="../images/images_mariage/classiccoeur.png" alt="sticker mariage classique coeur">
                     </div>
                         <figcaption>
                             <h3>Sticker coeur mariage classique</h3>
@@ -58,7 +58,7 @@
                 <article>
                     <figure>
                     <div class="img_bis">
-                        <img src="images/images_mariage/classiccadre.png" alt="sticker cadre mariage classique">
+                        <img src="../images/images_mariage/classiccadre.png" alt="sticker cadre mariage classique">
                     </div>
                         <figcaption>
                             <h3>Sticker cadre mariage classique</h3>
@@ -72,7 +72,7 @@
                 <article>
                     <figure>
                         <div class="img_bis">
-                            <img src="images/images_mariage/weddtria.png" alt="sticker mariage classique triangle">
+                            <img src="../images/images_mariage/weddtria.png" alt="sticker mariage classique triangle">
                         </div>
                         <figcaption>
                             <h3>Sticker triangle mariage classique</h3>
@@ -92,7 +92,7 @@
                 <article>
                     <figure>
                     <div class="img_bis">
-                        <img src="images/images_mariage/talons.png" alt="sticker carré mariage romantique">
+                        <img src="../images/images_mariage/talons.png" alt="sticker carré mariage romantique">
                     </div>
                         <figcaption>
                             <h3>Sticker carré mariage romantique </h3>
@@ -106,7 +106,7 @@
                 <article>
                     <figure>
                     <div class="img">
-                        <img src="images/images_mariage/romantic.png" alt="sticker coeur mariage romantique">
+                        <img src="../images/images_mariage/romantic.png" alt="sticker coeur mariage romantique">
                     </div>
                         <figcaption>
                             <h3>Sticker coeur mariage romantique</h3>
@@ -120,7 +120,7 @@
                 <article>
                     <figure>
                     <div class="img_bis">
-                        <img src="images/images_mariage/romanticcadre.png" alt="sticker cadre mariage romantique">
+                        <img src="../images/images_mariage/romanticcadre.png" alt="sticker cadre mariage romantique">
                     </div>
                         <figcaption>
                             <h3>Sticker cadre mariage romantique</h3>
@@ -134,7 +134,7 @@
                 <article>
                     <figure>
                         <div class="img_bis">
-                            <img src="images/images_mariage/weddtri.png" alt="sticker triangle mariage romantique">
+                            <img src="../images/images_mariage/weddtri.png" alt="sticker triangle mariage romantique">
                         </div>
                         <figcaption>
                             <h3>Sticker triangle mariage romantique</h3>
@@ -154,7 +154,7 @@
                 <article>
                     <figure>
                     <div class="img_bis">
-                        <img src="images/images_mariage/mariagerectangle.png" alt="sticker rectangle marriage moderne">
+                        <img src="../images/images_mariage/mariagerectangle.png" alt="sticker rectangle marriage moderne">
                     </div>
                         <figcaption>
                             <h3>Sticker rectangle marriage moderne</h3>
@@ -168,7 +168,7 @@
                 <article>
                     <figure>
                     <div class="img">
-                        <img src="images/images_mariage/rosecoeur.png" alt="sticker Football long">
+                        <img src="../images/images_mariage/rosecoeur.png" alt="sticker Football long">
                     </div>
                         <figcaption>
                             <h3>Sticker long Football</h3>
@@ -182,7 +182,7 @@
                 <article>
                     <figure>
                     <div class="img_bis">
-                        <img src="images/images_mariage/bagues.png" alt="sticker losange moderne bagues">
+                        <img src="../images/images_mariage/bagues.png" alt="sticker losange moderne bagues">
                     </div>
                         <figcaption>
                             <h3>Sticker losange mariage moderne bagues</h3>
@@ -196,7 +196,7 @@
                 <article>
                     <figure>
                         <div class="img_bis">
-                            <img src="images/images_mariage/moderncercle.png" alt="sticker  rond mariage moderne cercle">
+                            <img src="../images/images_mariage/moderncercle.png" alt="sticker  rond mariage moderne cercle">
                         </div>
                         <figcaption>
                             <h3>Sticker rond mariage moderne cercle</h3>
@@ -216,7 +216,7 @@
                 <article>
                     <figure>
                     <div class="img_bis">
-                        <img src="images/images_mariage/leswed.png" alt="sticker mariage femmes">
+                        <img src="../images/images_mariage/leswed.png" alt="sticker mariage femmes">
                     </div>
                         <figcaption>
                             <h3>Sticker mariage femmes</h3>
@@ -230,7 +230,7 @@
                 <article>
                     <figure>
                     <div class="img">
-                        <img src="images/images_mariage/oriental.png" alt="mariage rectangle oriental">
+                        <img src="../images/images_mariage/oriental.png" alt="mariage rectangle oriental">
                     </div>
                         <figcaption>
                             <h3>Sticker mariage rectangle oriental</h3>
@@ -244,7 +244,7 @@
                 <article>
                     <figure>
                     <div class="img_bis">
-                        <img src="images/images_mariage/weddind.png" alt="sticker mariage india">
+                        <img src="../images/images_mariage/weddind.png" alt="sticker mariage india">
                     </div>
                         <figcaption>
                             <h3>Sticker mariage india</h3>
@@ -258,7 +258,7 @@
                 <article>
                     <figure>
                         <div class="img_bis">
-                            <img src="images/images_mariage/couleurwed.png" alt="sticker mariage divers">
+                            <img src="../images/images_mariage/couleurwed.png" alt="sticker mariage divers">
                         </div>
                         <figcaption>
                             <h3>Sticker mariage divers</h3>
@@ -278,7 +278,7 @@
                 <article>
                     <figure>
                     <div class="img_bis">
-                        <img src="images/images_mariage/lesmaries.png" alt="sticker justmarried rectangle">
+                        <img src="../images/images_mariage/lesmaries.png" alt="sticker justmarried rectangle">
                     </div>
                         <figcaption>
                             <h3>Sticker justmarried rectangle</h3>
@@ -292,7 +292,7 @@
                 <article>
                     <figure>
                     <div class="img">
-                        <img src="images/images_mariage/feuille.png" alt="sticker mariage humour">
+                        <img src="../images/images_mariage/feuille.png" alt="sticker mariage humour">
                     </div>
                         <figcaption>
                             <h3>Sticker gateau mariage</h3>
@@ -306,7 +306,7 @@
                 <article>
                     <figure>
                     <div class="img_bis">
-                        <img src="images/images_mariage/doigts.png" alt="sticker mariage humour">
+                        <img src="../images/images_mariage/doigts.png" alt="sticker mariage humour">
                     </div>
                         <figcaption>
                             <h3>Sticker mariage humour</h3>
@@ -320,7 +320,7 @@
                 <article>
                     <figure>
                         <div class="img_bis">
-                            <img src="images/images_mariage/annivmar.png" alt="sticker mariage feuille">
+                            <img src="../images/images_mariage/annivmar.png" alt="sticker mariage feuille">
                         </div>
                         <figcaption>
                             <h3>Sticker rond Rugby</h3>
@@ -341,7 +341,7 @@
     <script src="panier.js"></script>
     </main>
     <?php
-        include_once "includes/footer.php";
+        include_once "../includes/footer.php";
     ?>
 </body>
 
