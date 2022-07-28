@@ -30,7 +30,7 @@ h1 {
 
 /*========= Body / article/images ==========*/
 
-main {
+body {
     background-image: url(../images/Carousel/evenement.png);
     background-repeat: repeat;
     background-attachment: scroll;
