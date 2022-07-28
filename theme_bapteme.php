@@ -1,7 +1,6 @@
 <?php
-
+ require_once 'model/database.php';
 ?>
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -29,7 +28,7 @@
 </head>
 <body class="filigrane" id="background">
     <?php
-        include_once "includes/header.php";
+        include 'view/includes/header.php';
     ?>
     <main>   
 <section>  
@@ -44,8 +43,9 @@
                     <img src="images/Stickers_Bapteme/b1.png" alt="baptême 1">
                 </div>
                 <p>
-                    <h4 class="theme-h4">Lot de : 6 Stickers Petits pieds</h4>
-                    <h5 class="theme-h5">Taille unique : L 4 cm, H 4 cm</h5>
+                    <h4 class="theme-h4">Petits pieds</h4>
+                    <p>Lot de : 6 Stickers</P>
+                    <h5 class="theme-h5">Taille unique : L 6 cm, H 4 cm</h5>
                     <p>Prix : 4,99€</p>
                     <label for="panier" class="label-input">Quantité</label>
                     <input type="number" id="panier" min="1" max="10" required>
@@ -62,8 +62,9 @@
                     <img src="images/Stickers_Bapteme/b2.png" alt="baptême 2">
                 </div>
                 <p>
-                    <h4 class="theme-h4">Lot de : 6 Stickers Ma lumière</h4>
-                    <h5 class="theme-h5">Taille unique : L 4 cm, H 4 cm</h5>
+                    <h4 class="theme-h4">Ma lumière</h4>
+                    <p>Lot de : 6 Stickers</P>
+                    <h5 class="theme-h5">Taille unique : L 6 cm, H 4 cm</h5>
                     <p>Prix : 4,99€</p>
                     <label for="panier" class="label-input">Quantité</label>
                     <input type="number" id="panier" min="1" max="10" required>
@@ -80,8 +81,9 @@
                     <img src="images/Stickers_Bapteme/b3.png" alt="baptême 3">
                 </div>
                 <p>
-                    <h4 class="theme-h4">Lot de : 6 Stickers Bébé</h4>
-                    <h5 class="theme-h5">Taille unique : L 4 cm, H 4 cm</h5>
+                    <h4 class="theme-h4">Bébé</h4>
+                    <p>Lot de : 6 Stickers</P>
+                    <h5 class="theme-h5">Taille unique : L 6 cm, H 5 cm</h5>
                     <p>Prix : 4,99€</p>
                     <label for="panier" class="label-input">Quantité</label>
                     <input type="number" id="panier" min="1" max="10" required>
@@ -98,8 +100,9 @@
                     <img src="images/Stickers_Bapteme/b4.png" alt="baptême 4">
                 </div>     
                 <p>
-                    <h4 class="theme-h4">Lot de : 6 Stickers Mon petit ange</h4>
-                    <h5 class="theme-h5">Taille unique : L 4 cm, H 4 cm</h5>
+                    <h4 class="theme-h4">Mon petit ange</h4>
+                    <p>Lot de : 6 Stickers</P>
+                    <h5 class="theme-h5">Taille unique : L 4 cm, H 6 cm</h5>
                     <p>Prix : 4,99€</p>
                     <label for="panier" class="label-input">Quantité</label>
                     <input type="number" id="panier" min="1" max="10" required>
@@ -116,8 +119,9 @@
                     <img src="images/Stickers_Bapteme/b5.png" alt="baptême 5">
                 </div>
                 <p>
-                    <h4 class="theme-h4">Lot de : 6 Stickers Garçon</h4>
-                    <h5 class="theme-h5">Taille unique : L 5 cm, H 3 cm</h5>
+                    <h4 class="theme-h4">Garçon</h4>
+                    <p>Lot de : 6 Stickers</P>
+                    <h5 class="theme-h5">Taille unique : L 4 cm, H 5 cm</h5>
                     <p>Prix : 4,99€</p>
                     <label for="panier" class="label-input">Quantité</label>
                     <input type="number" id="panier" min="1" max="10" required>
@@ -134,8 +138,9 @@
                     <img src="images/Stickers_Bapteme/b6.png" alt="baptême 6">
                 </div>
                 <p>
-                    <h4 class="theme-h4">Lot de : 6 Stickers Mon petit arc-en-ciel</h4>
-                    <h5 class="theme-h5">Taille unique : L 6 cm, H 3 cm</h5>
+                    <h4 class="theme-h4">Mon petit arc-en-ciel</h4>
+                    <p>Lot de : 6 Stickers</P>
+                    <h5 class="theme-h5">Taille unique : L 6 cm, H 5 cm</h5>
                     <p>Prix : 4,99€</p>
                     <label for="panier" class="label-input">Quantité</label>
                     <input type="number" id="panier" min="1" max="10" required>
@@ -151,7 +156,7 @@
 </main> 
 
     <?php
-        include_once "includes/footer.php";
+        include 'view/includes/footer.php';
     ?>
 </body>
 

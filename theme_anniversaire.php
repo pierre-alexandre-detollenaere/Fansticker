@@ -1,7 +1,6 @@
 <?php
-
+ require_once 'model/database.php';
 ?>
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -29,7 +28,7 @@
 </head>
 <body class="filigrane" id="background">
     <?php
-        include_once "includes/header.php";
+        include 'view/includes/header.php';
     ?>
     <main>   
 <section>  
@@ -44,8 +43,9 @@
                 <img src="images/Stickers_Anniversaire/a1.png" alt="anniversaire 1">
                 </div>
                 <p>
-                    <h4 class="theme-h4">Lot de : 6 Stickers Muffin</h4>
-                    <h5 class="theme-h5">Taille unique : L 4 cm, H 4 cm</h5>
+                    <h4 class="theme-h4">Gâteau Muffin</h4>
+                    <p>Lot de : 6 Stickers</P>
+                    <h5 class="theme-h5">Taille unique : L 4 cm, H 5 cm</h5>
                     <p>Prix : 4,99€</p>
                     <label for="panier" class="label-input">Quantité</label>
                     <input type="number" id="panier" min="1" max="10" required>
@@ -63,7 +63,8 @@
                     <img src="images/Stickers_Anniversaire/a2.png" alt="anniversaire 2">
                 </div>
                 <p>
-                    <h4 class="theme-h4">Lot de : 6 Stickers Chien</h4>
+                    <h4 class="theme-h4">Mon Chien</h4>
+                    <p>Lot de : 6 Stickers</P>
                     <h5 class="theme-h5">Taille unique : L 4 cm, H 4 cm</h5>
                     <p>Prix : 4,99€</p>
                     <label for="panier" class="label-input">Quantité</label>
@@ -81,7 +82,8 @@
                     <img src="images/Stickers_Anniversaire/a3.png" alt="anniversaire 3">
                 </div>
                 <p>
-                    <h4 class="theme-h4">Lot de : 6 Stickers Cadeau</h4>
+                    <h4 class="theme-h4">Cadeau</h4>
+                    <p>Lot de : 6 Stickers</P>
                     <h5 class="theme-h5">Taille unique : L 4 cm, H 4 cm</h5>
                     <p>Prix : 4,99€</p>
                     <label for="panier" class="label-input">Quantité</label>
@@ -99,8 +101,9 @@
                 <img src="images/Stickers_Anniversaire/a4.png" alt="anniversaire 4">
                 </div>     
                 <p>
-                    <h4 class="theme-h4">Lot de : 6 Stickers Festif</h4>
-                    <h5 class="theme-h5">Taille unique : L 4 cm, H 4 cm</h5>
+                    <h4 class="theme-h4">Festif</h4>
+                    <p>Lot de : 6 Stickers</P>
+                    <h5 class="theme-h5">Taille unique : L 4 cm, H 5 cm</h5>
                     <p>Prix : 4,99€</p>
                     <label for="panier" class="label-input">Quantité</label>
                     <input type="number" id="panier" min="1" max="10" required>
@@ -117,8 +120,9 @@
                 <img src="images/Stickers_Anniversaire/a5.png" alt="anniversaire 5">
                 </div>
                 <p>
-                    <h4 class="theme-h4">Lot de : 6 Stickers Gâteau Fraise</h4>
-                    <h5 class="theme-h5">Taille unique : L 4 cm, H 4 cm</h5>
+                    <h4 class="theme-h4">Gâteau Fraise</h4>
+                    <p>Lot de : 6 Stickers</P>
+                    <h5 class="theme-h5">Taille unique : L 5 cm, H 5 cm</h5>
                     <p>Prix : 4,99€</p>
                     <label for="panier" class="label-input">Quantité</label>
                     <input type="number" id="panier" min="1" max="10" required>
@@ -135,8 +139,9 @@
                 <img src="images/Stickers_Anniversaire/a6.png" alt="anniversaire 6">
                 </div>
                 <p>
-                    <h4 class="theme-h4">Lot de : 6 Stickers Gâteau Smarties</h4>
-                    <h5 class="theme-h5">Taille unique : L 4 cm, H 4 cm</h5>
+                    <h4 class="theme-h4">Gâteau Smarties</h4>
+                    <p>Lot de : 6 Stickers</P>
+                    <h5 class="theme-h5">Taille unique : L 5 cm, H 5 cm</h5>
                     <p>Prix : 4,99€</p>
                     <label for="panier" class="label-input">Quantité</label>
                     <input type="number" id="panier" min="1" max="10" required>
@@ -152,7 +157,7 @@
 </main> 
 
     <?php
-        include_once "includes/footer.php";
+        include 'view/includes/footer.php'
     ?>
 </body>
 
