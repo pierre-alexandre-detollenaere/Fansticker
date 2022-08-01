@@ -39,9 +39,7 @@
 
             <label for="text">Message</label>
             <textarea id="text" placeholder="Votre message*"></textarea>
-
             <button type="submit">Envoyer</button>
-
     </form>
 
     <?php

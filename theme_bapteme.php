@@ -1,5 +1,4 @@
 <?php
- require_once 'model/database.php';
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -21,14 +20,14 @@
 
     <style>
     body {
-        background-color: #eed6ca;
+        background-color: #FBEEE6;
     }
 </style>
 
 </head>
 <body class="filigrane" id="background">
     <?php
-        include 'view/includes/header.php';
+        include 'includes/header.php';
     ?>
     <main>   
 <section>  
@@ -49,7 +48,7 @@
                     <p>Prix : 4,99€</p>
                     <label for="panier" class="label-input">Quantité</label>
                     <input type="number" id="panier" min="1" max="10" required>
-                    <button onclick="fpanier()">Ajouter au panier</button>
+                    <button onclick="panier()">Ajouter au panier</button>
                 </p>
             </figcaption>
         </figure>
@@ -68,7 +67,7 @@
                     <p>Prix : 4,99€</p>
                     <label for="panier" class="label-input">Quantité</label>
                     <input type="number" id="panier" min="1" max="10" required>
-                    <button onclick="fpanier()">Ajouter au panier</button>
+                    <button onclick="panier()">Ajouter au panier</button>
                 </p>
             </figcaption>
         </figure>
@@ -87,7 +86,7 @@
                     <p>Prix : 4,99€</p>
                     <label for="panier" class="label-input">Quantité</label>
                     <input type="number" id="panier" min="1" max="10" required>
-                    <button onclick="fpanier()">Ajouter au panier</button>
+                    <button onclick="panier()">Ajouter au panier</button>
                 </p>
             </figcaption>
         </figure>
@@ -106,7 +105,7 @@
                     <p>Prix : 4,99€</p>
                     <label for="panier" class="label-input">Quantité</label>
                     <input type="number" id="panier" min="1" max="10" required>
-                    <button onclick="fpanier()">Ajouter au panier</button>
+                    <button onclick="panier()">Ajouter au panier</button>
                 </p>
             </figcaption>
         </figure>
@@ -125,7 +124,7 @@
                     <p>Prix : 4,99€</p>
                     <label for="panier" class="label-input">Quantité</label>
                     <input type="number" id="panier" min="1" max="10" required>
-                    <button onclick="fpanier()">Ajouter au panier</button>
+                    <button onclick="panier()">Ajouter au panier</button>
                 </p>
             </figcaption>
         </figure>
@@ -144,7 +143,7 @@
                     <p>Prix : 4,99€</p>
                     <label for="panier" class="label-input">Quantité</label>
                     <input type="number" id="panier" min="1" max="10" required>
-                    <button onclick="fpanier()">Ajouter au panier</button>
+                    <button onclick="panier()">Ajouter au panier</button>
                 </p>
             </figcaption>
         </figure>
@@ -156,7 +155,7 @@
 </main> 
 
     <?php
-        include 'view/includes/footer.php';
+        include 'includes/footer.php';
     ?>
 </body>
 

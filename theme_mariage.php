@@ -33,7 +33,7 @@
                         <img src="images/images_mariage/classiccarre.png" alt="sticker Mariage classique carré">
                     </div>
                         <figcaption>
-                            <h3>Sticker carré Mariage</h3>
+                            <h3>Sticker carré mariage classique</h3>
                             <p>Lot de 6 stickers : 4€99<br>Taille : L 4 cm, H 4 cm</p>
                             <label for="panier" class="label-input">Ajouter au panier</label>
                             <input type="number" id="panier" min="1" max="10" required>
@@ -157,7 +157,7 @@
                         <img src="images/images_mariage/mariagerectangle.png" alt="sticker rectangle marriage moderne">
                     </div>
                         <figcaption>
-                            <h3>Sticker rectangle marriage moderne</h3>
+                            <h3>Sticker rectangle mariage moderne</h3>
                             <p>Lot de 6 stickers : 4€99<br>Taille : L 4 cm, H 4 cm</p>
                             <label for="panier" class="label-input">Ajouter au panier</label>
                             <input type="number" id="panier" min="1" max="10" required>
@@ -171,7 +171,7 @@
                         <img src="images/images_mariage/rosecoeur.png" alt="sticker Football long">
                     </div>
                         <figcaption>
-                            <h3>Sticker long Football</h3>
+                            <h3>Sticker coeur mariage moderne</h3>
                             <p>Lot de 6 stickers : 4€99<br>Taille : L 6 cm, H 4 cm</p>
                             <label for="panier" class="label-input">Ajouter au panier</label>
                             <input type="number" id="panier" min="1" max="10" required>
@@ -281,7 +281,7 @@
                         <img src="images/images_mariage/lesmaries.png" alt="sticker justmarried rectangle">
                     </div>
                         <figcaption>
-                            <h3>Sticker justmarried rectangle</h3>
+                            <h3>Sticker justmarried gâteau</h3>
                             <p>Lot de 6 stickers : 4€99<br>Taille : L 4 cm, H 4 cm</p>
                             <label for="panier" class="label-input">Ajouter au panier</label>
                             <input type="number" id="panier" min="1" max="10" required>
@@ -295,7 +295,7 @@
                         <img src="images/images_mariage/feuille.png" alt="sticker mariage humour">
                     </div>
                         <figcaption>
-                            <h3>Sticker gateau mariage</h3>
+                            <h3>Sticker feuille mariage</h3>
                             <p>Lot de 6 stickers : 4€99<br>Taille : L 6 cm, H 4 cm</p>
                             <label for="panier" class="label-input">Ajouter au panier</label>
                             <input type="number" id="panier" min="1" max="10" required>
@@ -323,7 +323,7 @@
                             <img src="images/images_mariage/annivmar.png" alt="sticker mariage feuille">
                         </div>
                         <figcaption>
-                            <h3>Sticker rond Rugby</h3>
+                            <h3>Sticker anniversaire mariage</h3>
                             <p>Lot de 6 stickers : 4€99<br>Taille : L 4 cm, H 4 cm</p>
                             <label for="panier" class="label-input">Ajouter au panier</label>
                             <input type="number" id="panier" min="1" max="10" required>
