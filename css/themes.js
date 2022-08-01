@@ -12,5 +12,5 @@ function fpanier(){
 }
 
 function fpanier() {
-    confirm("Votre commande a été ajouter au panier!");
+    confirm("Votre commande a été ajoutée au panier!");
   }

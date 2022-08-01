@@ -7,9 +7,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/footer.css">
-    <link rel="stylesheet" href="./css/header.css">
-    <link rel="stylesheet" href="panier2.css">
+    <link rel="stylesheet" href="../css/footer.css">
+    <link rel="stylesheet" href="../css/header.css">
+    <link rel="stylesheet" href="../css/panier2.css">
     <link rel="stylesheet" href="style.css">
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
@@ -22,7 +22,7 @@
 </head>
 <body>
     <?php 
-      include 'includes/header.php'; 
+      include '../includes/header.php'; 
     ?>
     <main>
         <!-------------- cart items details --------------->
@@ -36,7 +36,7 @@
                 <tr>
                     <td>
                         <div class="cart-info">
-                            <img src="images/theme_sport/athletisme_carre.png">
+                            <img src="../images/theme_sport/athletisme_carre.png">
                             <div>
                                 <p>Lot de 6 Sticker carré Athlète</p>
                                 <small>Prix: 4,99€</small>
@@ -51,7 +51,7 @@
                 <tr>
                     <td>
                         <div class="cart-info">
-                            <img src="images/theme_sport/athletisme_long.png">
+                            <img src="../images/theme_sport/athletisme_long.png">
                             <div>
                                 <p>Lot de 6 Sticker long Athlète</p>
                                 <small>Prix: 4,99€</small>
@@ -66,7 +66,7 @@
                 <tr>
                     <td>
                         <div class="cart-info">
-                            <img src="images/theme_sport/athletisme_losange.png">
+                            <img src="../images/theme_sport/athletisme_losange.png">
                             <div>
                                 <p>Lot de 6 Sticker losange Athlète</p>
                                 <small>Prix: 4,99€</small>
@@ -100,7 +100,7 @@
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
     </main>
     <?php
-      include 'includes/footer.php';
+      include '../includes/footer.php';
     ?>
 </body>
 </html>

@@ -2,12 +2,12 @@
 
 function dbConnect() {
     try {
-    $db= new PDO (
+    $db = new PDO (
         'mysql:host=localhost;dbname=fansticker;charset=utf8',
         'root',
         ''
     );
-    } catch(PDOException $e){
+    } catch(PDOException $e) {
         die($e->getMessage());
     }
     return $db;

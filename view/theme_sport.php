@@ -1,6 +1,6 @@
-<?php
-
-?>
+<!--?php
+    include_once '../model/stickers.php';
+?>-->
 
 <!DOCTYPE html>
 <html lang="en">
@@ -25,7 +25,25 @@
         <section class="row">
         <div></div>
         <h2 class="titre_vedette">ATHLÉTISME</h2>
+        <!-- début bloc php -->
             <div>
+                <?php foreach($datas as $product) { ?>                
+                    <article>
+                        <figure>
+                        <div class="img_bis">
+                            <img src="<?php echo $product['image'];?>" alt="<?php echo $product['name'];?>">
+                        </div>
+                            <figcaption>
+                                <h3><?php echo $product['name'];?></h3>
+                                <p>Lot de 6 stickers<br>Taille : L 4 cm, H 4 cm<br>Prix: <?php echo number_format($product['price'], 2, '€', ' ');?></p>
+                                <label for="panier" class="label-input">Quantité</label>
+                                <input type="number" id="panier" min="1" max="10" required>
+                                <button onclick="fpanier()">Ajouter au panier</button>
+                            </figcaption>
+                        </figure>
+                    </article>
+                <?php } ?>
+        <!-- fin bloc php -->
                 <article>
                     <figure>
                     <div class="img_bis">
@@ -39,7 +57,7 @@
                             <button onclick="fpanier()">Ajouter au panier</button>
                         </figcaption>
                     </figure>
-                </article>
+                </article>-->
                 <article>
                     <figure>
                     <div class="img">

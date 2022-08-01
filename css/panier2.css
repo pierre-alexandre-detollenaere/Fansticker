@@ -38,9 +38,9 @@ td a{
 }
 
 td img {
-    width: 80px;
-    height: 800px;
-    margin-right: 10px;
+    width: 100px;
+    height: 100px;
+    margin: auto;
 }
 
 .total-price{

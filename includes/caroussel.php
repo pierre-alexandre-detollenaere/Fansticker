@@ -20,7 +20,7 @@
             </div>
           </div>
           <div class="carousel-item">
-            <img class="dimension" src="./images/Carousel/amour.png" width="1000"  class="d-block w-100" alt="amour">
+            <img class="dimension" src="../images/Carousel/amour.png" width="1000"  class="d-block w-100" alt="amour">
             <div class="d-md-block "> 
                 <figcaption>
                     <h5 class="color_carousel">Créez les stickers personnalisés pour vos évènements</h5>

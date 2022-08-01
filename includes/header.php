@@ -39,7 +39,7 @@
         <input type="text" class="search" id="rechercher" name="rechercher" placeholder="rechercher un thème">
     </nav>
     <div class="col-1">
-        <button type="button" class="connexion"><a class="btn_third" href="connexion.php">S'identifier</a></button>
+        <button type="button" class="connexion"><a class="btn_third" href="account.php">S'identifier</a></button>
     </div class="col-2">
     <div>
         <button type="button" class="bouton_panier">
