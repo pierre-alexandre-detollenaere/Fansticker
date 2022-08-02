@@ -10,8 +10,8 @@
 .theme-h2 {
     color: #000;
     text-align: left;
-    margin-top: 300px;
-    margin-left: 40px;
+    margin-top: 250px;
+    margin-left: 80px;
     font-size: 30px;
     font-family: raleway-regular, sans-serif;
     width: fit-content;
@@ -83,7 +83,7 @@ figcaption {
     margin-left: 90px;
     margin-right: 70px;
     margin-bottom: 50px;
-    border-radius: 10px 10px 10px 10px;
+    border-radius: 10px 10px 100px 10px;
     background-color: #fcd1af;
     border-bottom: 2px solid #06080f;
     padding: 0;

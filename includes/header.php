@@ -22,8 +22,8 @@
                 </button>
                 <div class="dropdown-menu bouton">
                     <!-- Dropdown menu links -->
-                    <button class="dropdown-item" type="button"><a href="./theme_sport.php">Sports</a></button>
-                    <button class="dropdown-item" type="button"><a href="./theme_anniversaire.php">Anniversaire</a></button>
+                    <button class="dropdown-item" type="button"><a href="../controller/category_sport.php?categorie=sport">Sports</a></button>
+                    <button class="dropdown-item" type="button"><a href="../controller/shop.php?categorie=anniversaire">Anniversaire</a></button>
                     <button class="dropdown-item" type="button"><a href="./theme_naissance.php">Naissance</a></button>
                     <button class="dropdown-item" type="button"><a href="./theme_bapteme.php">Baptême</a></button>
                     <button class="dropdown-item" type="button"><a href="./theme_mariage.php">Mariage</a></button>

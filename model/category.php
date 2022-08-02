@@ -1,5 +1,5 @@
 <?php
-include 'model/database.php';
+include_once 'database.php';
 
 function getCategory($category) {
     $db=dbConnect();
