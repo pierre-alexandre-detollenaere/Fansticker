@@ -42,11 +42,13 @@
         <button type="button" class="connexion"><a class="btn_third" href="../controller/account.php">S'identifier</a></button>
     </div class="col-2">
     <div>
-        <button type="button" class="bouton_panier">
-            <span>
-            <img class="panier" src=../images/panier_plein.png>
-            </span>
-            <a class="bouton_panier" href="../controller/panier2.php">Panier</a>
-        </button>
+        <a href="../controller/panier2.php" class="link bouton_panier">
+            <!--<button type="button" class="bouton_panier">-->
+                <span>8</span>
+                <img class="panier" src=../images/panier_plein.png>
+                <!--
+                <a class="bouton_panier" href="../controller/panier2.php"></a>-->
+            <!--</button>-->
+        </a>
     </div>
 </header>

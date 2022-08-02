@@ -11,3 +11,4 @@ if(count($_POST) && isset($_POST['action']) && $_POST['action'] === 'signup') {
     }
 }
 
+include_once '../view/signup.php';

@@ -1,4 +1,4 @@
-
+/*
 document.getElementById("panier").addEventListener("keyup", fpanier)
 
 function fpanier(){
@@ -10,7 +10,7 @@ function fpanier(){
        document.getElementById("dpanier").innerHTML="le nombre n'est pas conforme"
    }
 }
-
+*/
 function fpanier() {
     confirm("Votre commande a été ajoutée au panier!");
   }

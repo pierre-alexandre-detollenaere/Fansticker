@@ -185,7 +185,7 @@
           <article>
             <figure>
               <div class="img_bis">
-              <img src=".//images/Stickers - En Vedette/étiquette ronde - stvalentin3.png" alt="sticker saint valentin 3">
+              <img src="../images/Stickers - En Vedette/étiquette ronde - stvalentin3.png" alt="sticker saint valentin 3">
               </div>
               <figcaption>
                 <h3>Sticker rond Saint-Valentin</h3>
