@@ -6,8 +6,12 @@
 
 /* ---------- partie body ---------- */
 
+#background {
+    background-color: #fae3d4e7;
+}
 
-.theme-h2 {
+/*
+.theme-h1 {
     color: #000;
     text-align: left;
     margin-top: 250px;
@@ -48,11 +52,11 @@ label {
 }
 
 .row {
-    justify-content: space-between; /* Répartir équitablement les vignettes sur la largeur */
+    justify-content: space-between; /* Répartir équitablement les vignettes sur la largeur
 }
 
 
-article figure { /* retirer les marges de la figure */
+article figure { /* retirer les marges de la figure
     margin: auto;
     
 }
@@ -87,9 +91,9 @@ figcaption {
     background-color: #fcd1af;
     border-bottom: 2px solid #06080f;
     padding: 0;
-    list-style-type: none;/* 6. Retirer les puces */
+    list-style-type: none;/* 6. Retirer les puces *//*
     background: linear-gradient(to top, #fcd1af 20%, transparent 100%); /* #fff */
-}
+/*}
 
 figcaption button {
     border: 1px solid black;
@@ -97,6 +101,86 @@ figcaption button {
     background-color: #fbac80;
 }
 
+/* ---------- partie PHP ---------- */
+
+main {
+    padding: 2rem;
+}
+
+div.article {
+    padding: 2rem;
+}
+
+.article_php {
+    width: 50%;
+    padding: 0.8rem;
+    border-radius: 10px 10px 100px 10px;
+    background-color: #fcd1af;
+    border-bottom: 2px solid #06080f;
+    padding: 0;
+    background: linear-gradient(to top, #fcd1af 20%, transparent 100%); /* #fff */
+    /*margin: 4rem;*/
+}
+
+article {
+    width: 20%;
+    padding: 0.8rem;
+    border-radius: 10px 10px 100px 10px;
+    background-color: #fcd1af;
+    border-bottom: 2px solid #06080f;
+    padding: 0;
+    background: linear-gradient(to top, #fcd1af 20%, transparent 100%); /* #fff */
+    /*margin: 4rem;*/
+}
+
+.img_bis {
+    /*margin:auto;*/
+    width:70%;
+    width: 300px;
+    height: 225px;
+    margin-bottom: 42px;
+
+}
+
+.quantity {
+    padding: 0 4rem 1rem 3rem;
+}
+
+figcaption h3 {
+    font-size: 1.3rem;
+    padding: 0.8rem;
+    
+}
+
+figcaption h3, p {
+    display: flex;
+    font-size: 1.5rem;
+    justify-content: right;
+    margin-right : 3rem;
+}
+
+article figure {
+   margin: auto;
+}
+
+section div {
+    display: flex;
+    justify-content: flex-start;
+}
+
+label {
+    margin-left: 1rem;
+}
+
+input {
+    width: 50px;
+}
+
+figcaption button {
+    border: 1px solid black;
+    border-radius: 6px;
+    background-color: #fbac80;
+}
 
 /* ---------- partie responsive du site ---------- */
 @media screen and (max-width: 900px){

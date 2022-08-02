@@ -43,7 +43,7 @@
             <div>
                 <h2>S'inscrire</h2>
                 <div class="btn-div-connexion">
-                    <button type="input" class="btn-subscribe"><a class="link-color" href="inscription.php">Je m'inscris</a></button>
+                    <button type="input" class="btn-subscribe"><a class="link-color" href="../controller/inscription.php">Je m'inscris</a></button>
                 </div>
                 <div></br></div>
             </div>

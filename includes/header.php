@@ -11,7 +11,7 @@
     </div>
     <nav class="col-6">
         <ul>
-            <li><a class="lien" href="accueil.php">Accueil</a></li>
+            <li><a class="lien" href="../controller/accueil.php">Accueil</a></li>
             <li>
             <div class="btn-group dropdown">
                 <button type="button" class="btn btn-third">
@@ -23,27 +23,27 @@
                 <div class="dropdown-menu bouton">
                     <!-- Dropdown menu links -->
                     <button class="dropdown-item" type="button"><a href="../controller/category_sport.php?categorie=sport">Sports</a></button>
-                    <button class="dropdown-item" type="button"><a href="../controller/shop.php?categorie=anniversaire">Anniversaire</a></button>
-                    <button class="dropdown-item" type="button"><a href="./theme_naissance.php">Naissance</a></button>
-                    <button class="dropdown-item" type="button"><a href="./theme_bapteme.php">Baptême</a></button>
-                    <button class="dropdown-item" type="button"><a href="./theme_mariage.php">Mariage</a></button>
-                    <button class="dropdown-item" type="button"><a href="./theme_metier.php">Métiers</a></button>
+                    <button class="dropdown-item" type="button"><a href="../controller/category_anniversaire.php?categorie=anniversaire">Anniversaire</a></button>
+                    <button class="dropdown-item" type="button"><a href="../controller/category_naissance.php?categorie=naissance">Naissance</a></button>
+                    <button class="dropdown-item" type="button"><a href="../controller/category_bapteme.php?categorie=bapteme">Baptême</a></button>
+                    <button class="dropdown-item" type="button"><a href="../controller/category_mariage.php?categorie=mariage">Mariage</a></button>
+                    <button class="dropdown-item" type="button"><a href="../controller/category_metier.php?categorie=metier">Métiers</a></button>
                     <button class="dropdown-item" type="button"><a href="#">Animaux</a></button>
                     <button class="dropdown-item" type="button"><a href="#">Divers</a></button>
                 </div>
             </div>
             </li>
-            <li><a class="lien" href="en_vedette.php">En Vedette</a></li>
-            <li><a class="lien" href="contact.php">Nous contacter</a></li>
+            <li><a class="lien" href="../controller/en_vedette.php">En Vedette</a></li>
+            <li><a class="lien" href="../controller/contact.php">Nous contacter</a></li>
         </ul>
         <input type="text" class="search" id="rechercher" name="rechercher" placeholder="rechercher un thème">
     </nav>
     <div class="col-1">
-        <button type="button" class="connexion"><a class="btn_third" href="account.php">S'identifier</a></button>
+        <button type="button" class="connexion"><a class="btn_third" href="../controller/account.php">S'identifier</a></button>
     </div class="col-2">
     <div>
         <button type="button" class="bouton_panier">
-            <img class="panier" src=../images/panier_plein.png><a class="bouton_panier" href="panier2.php">Panier</a>
+            <img class="panier" src=../images/panier_plein.png><a class="bouton_panier" href="../controller/panier2.php">Panier</a>
         </button>
     </div>
 </header>

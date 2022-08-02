@@ -198,6 +198,7 @@
           </article>
       </section>
     <script src="../panier.js"></script>
+    <script src="../css/themes.js"></script>
     </main>
     <?php
       include '../includes/footer.php';

@@ -25,7 +25,6 @@
         <h1 class="titre_vedette">SPORTS</h1>
         <section class="row">
         <div></div>
-
         <!-- début bloc php -->
             <div class="row">
                 <?php foreach($datas as $product) { ?> 
@@ -417,7 +416,7 @@
                 </article>-->
             </div>
         </section>
-    <script src="panier.js"></script>
+    <script src="../css/themes.js"></script>
     </main>
     <?php
         include_once "../includes/footer.php";

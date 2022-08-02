@@ -17,7 +17,7 @@
     font-size: 1.5rem;
     padding: 0.4rem;
     /*margin-left: 4rem;*/
-    margin: 2rem 4rem 2rem 4rem;
+    margin: 2rem 4rem 2rem 2rem;
     height : fit-content;
     width: fit-content;
     background-color: #fbac80;
@@ -37,6 +37,25 @@ body {
     background-position-y: 35%;
 }
 
+main {
+    padding: 2rem;
+}
+
+div.article {
+    padding: 2rem;
+}
+
+.article_php {
+    width: 50%;
+    padding: 0.8rem;
+    border-radius: 10px 10px 100px 10px;
+    background-color: #fcd1af;
+    border-bottom: 2px solid #06080f;
+    padding: 0;
+    background: linear-gradient(to top, #fcd1af 20%, transparent 100%); /* #fff */
+    /*margin: 4rem;*/
+}
+
 article {
     width: 20%;
     padding: 0.8rem;
@@ -45,23 +64,30 @@ article {
     border-bottom: 2px solid #06080f;
     padding: 0;
     background: linear-gradient(to top, #fcd1af 20%, transparent 100%); /* #fff */
-    margin: 4rem;
+    /*margin: 4rem;*/
 }
-
-article img {/*
+/*
+article img {
     width: 450px;
-    height: 240px;*/
+    height: 240px;
     width: 530px;
     height: 267px;
-    padding: 0.5rem;
-}
+    width:100%;
+
+    padding: 3rem;
+}*/
 
 .img_bis {
-    margin:auto;
+    /*margin:auto;*/
+    width:70%;
     width: 300px;
     height: 225px;
-    padding: 0.5rem;
     margin-bottom: 42px;
+
+}
+
+.quantity {
+    padding: 0 4rem 1rem 3rem;
 }
 
 figcaption h3 {
@@ -72,10 +98,9 @@ figcaption h3 {
 
 figcaption h3, p {
     display: flex;
-    font-size: 1.3rem;
+    font-size: 1.5rem;
     justify-content: right;
     margin-right : 3rem;
-    height: auto;
 }
 
 article figure {
@@ -84,7 +109,7 @@ article figure {
 
 section div {
     display: flex;
-    justify-content: space-around;
+    justify-content: flex-start;
 }
 
 label {
@@ -126,6 +151,8 @@ figcaption button {
     }
 
 }
+
+
 
 @media screen and (max-width: 1000px) {
 

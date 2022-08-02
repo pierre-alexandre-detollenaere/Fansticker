@@ -22,10 +22,32 @@
         include_once "../includes/header.php";
     ?>
     <main>
+    <h1 class="titre_vedette">MÉTIERS</h1>
         <section class="row">
         <div></div>
-        <h2 class="titre_vedette">BÂTIMENT</h2>
-            <div>
+        <!-- début bloc php -->
+            <div class="row">
+                <?php foreach($datas as $product) { ?> 
+                    <div class="article col-6">               
+                        <article class="article_php">
+                            <figure>
+                                <div class="img_bis d-flex justify-content-center w-100">
+                                    <img src="../<?php echo $product['image'];?>" alt="<?php echo $product['name'];?>">
+                                </div>
+                                <figcaption class="d-flex flex-column align-items-center justify-content-center w-100">
+                                    <h3><?php echo $product['name'];?></h3>
+                                    <p>Lot de 6 stickers<br>Taille : L 4 cm, H 4 cm<br>Prix: <?php echo number_format($product['price'], 2, '€', ' ');?></p>
+                                    <div class="quantity d-flex justify-content-between w-100">
+                                        <label for="panier" class="label-input">Quantité</label>
+                                        <input type="number" id="panier" min="1" max="10" required>
+                                        <button onclick="fpanier()">Ajouter au panier</button>
+                                    </div>
+                                </figcaption>
+                            </figure>
+                        </article>
+                    </div>
+                <?php } ?>
+        <!-- fin bloc php --><!--
                 <article>
                     <figure>
                     <div class="img_bis">
@@ -391,10 +413,10 @@
                             <button onclick="fpanier()">Ajouter au panier</button>
                         </figcaption>
                     </figure>
-                </article>
+                </article>-->
             </div>
         </section>
-    <script src="panier.js"></script>
+    <script src="../css/themes.js"></script>
     </main>
     <?php
         include_once "../includes/footer.php";
