@@ -43,7 +43,10 @@
     </div class="col-2">
     <div>
         <button type="button" class="bouton_panier">
-            <img class="panier" src=../images/panier_plein.png><a class="bouton_panier" href="../controller/panier2.php">Panier</a>
+            <span>
+            <img class="panier" src=../images/panier_plein.png>
+            </span>
+            <a class="bouton_panier" href="../controller/panier2.php">Panier</a>
         </button>
     </div>
 </header>

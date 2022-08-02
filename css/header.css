@@ -145,11 +145,27 @@ nav a {
     border-radius : 6px;
     text-decoration: none;
     background-color: transparent;
-    margin-top: 1rem;
+    margin-top: 2rem;
     margin-right: 3rem;
     font-weight: bold;
 }
 
+/*
+.bouton_panier {
+    margin: 20px;
+    width: fit-content;
+    position: relative;
+    text-decoration: none;
+    background-color: transparent;
+    border : 0px solid #fbac80;
+    color: #000000;
+    padding: 10px 50px;
+    border-radius: 6px;
+    font-size: 14px;
+    display: flex;
+    flex-direction: column;
+}
+*/
 .panier {
     height: 54px;
     width: 50px;
@@ -159,7 +175,21 @@ nav a {
     width: 810px;
 }
 
+/* nombre articles panier */
 
+span {
+    position: absoltue;
+    top: -9px;
+    right: -9px;
+    background-color: purple;
+    height: 20px;
+    width: 20px;
+    display: flex;
+    align-items: flex-start;
+    border-radius: 50%;
+    font-size: 12px;
+    color: #ffff;
+}
 
 
 /*color:
