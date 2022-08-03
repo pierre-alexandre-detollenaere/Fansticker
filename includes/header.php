@@ -28,8 +28,8 @@
                     <button class="dropdown-item" type="button"><a href="../controller/category_bapteme.php?categorie=bapteme">Baptême</a></button>
                     <button class="dropdown-item" type="button"><a href="../controller/category_mariage.php?categorie=mariage">Mariage</a></button>
                     <button class="dropdown-item" type="button"><a href="../controller/category_metier.php?categorie=metier">Métiers</a></button>
-                    <button class="dropdown-item" type="button"><a href="#">Animaux</a></button>
-                    <button class="dropdown-item" type="button"><a href="#">Divers</a></button>
+                    <button class="dropdown-item" type="button"><a href="../controller/category_animaux.php?">Animaux</a></button>
+                    <button class="dropdown-item" type="button"><a href="../controller/category_divers.php">Divers</a></button>
                 </div>
             </div>
             </li>

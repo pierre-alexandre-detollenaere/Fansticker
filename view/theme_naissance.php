@@ -25,7 +25,7 @@
         ?>
         <main>   
             <section>  
-            <h1 class="theme-h1">Naissance</h1>
+            <h1 class="theme-h1">NAISSANCE</h1>
                 <!-- début bloc php -->
                 <div class="row">
                     <?php foreach($datas as $product) { ?> 

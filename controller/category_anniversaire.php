@@ -1,7 +1,6 @@
 <?php
 include_once '../model/category.php';
 include_once '../model/product.php';
-include_once '../controller/signup.php';
 
 $category = $_GET['categorie'];
 $datas = getProductsByCategory($category);

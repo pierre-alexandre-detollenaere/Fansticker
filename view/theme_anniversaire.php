@@ -26,7 +26,7 @@
     ?>
     <main>   
         <section>  
-        <h1 class="theme-h1">Anniversaire</h1>
+        <h1 class="theme-h1">ANNIVERSAIRE</h1>
             <!-- début bloc php -->
             <div class="row">
                 <?php foreach($datas as $product) { ?> 
