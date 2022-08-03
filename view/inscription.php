@@ -36,7 +36,7 @@
             <label for="password" class="label-input">Mot de passe<em>*</em></label>
             <input type="password" class="formulaire_contact" name="password" id="password" placeholder="Mot de passe">
             <div class="forgot">
-                <input type="submit" value="Valider" class="btn-subscribe">
+                <input type="submit" name="register" value="Valider" class="btn-subscribe">
             </div>
             </form>
         </div>

@@ -1,5 +1,14 @@
 <?php
+ini_set('display_errors', 0);
+ini_set('display_startup_errors', 0);
+error_reporting(E_ALL);
+
+session_start();
+include_once ('../core/functions.php');
+include_once ('../model/database.php');
+
 ?>
+
 <header class="row col-12 d-none d-md-flex justify-content-between text-orange no-gutters">
     <div class="col-3">
         <figure>
@@ -39,16 +48,16 @@
         <input type="text" class="search" id="rechercher" name="rechercher" placeholder="rechercher un thème">
     </nav>
     <div class="col-1">
-        <button type="button" class="connexion"><a class="btn_third" href="../controller/account.php">S'identifier</a></button>
+        <?php  if($_SESSION['firstname']) { ?>
+            <button type="button" class="connexion"><a class="btn_third" href="../profile.php" style="font-size:14px;"> Votre compte </a></button>
+        <?php } else {?>
+            <button type="button" class="connexion"><a class="btn_third" href="../view/connexion.php">S'identifier</a></button>
+        <?php } ?>
+        <!--<button type="button" class="connexion"><a class="btn_third" href="../controller/account.php">S'identifier</a></button>-->
     </div class="col-2">
     <div>
-        <a href="../controller/panier2.php" class="link bouton_panier">
-            <!--<button type="button" class="bouton_panier">-->
-                <span>8</span>
-                <img class="panier" src=../images/panier_plein.png>
-                <!--
-                <a class="bouton_panier" href="../controller/panier2.php"></a>-->
-            <!--</button>-->
-        </a>
+        <button type="button" class="bouton_panier">
+            <img class="panier" src="/dw18/fansticker/images/panier_plein.png"><a class="bouton_panier" href="/view/cart.php" data-toggle="modal" data-target="#cart-modal" id="get-cart">Panier</a>
+        </button>
     </div>
 </header>

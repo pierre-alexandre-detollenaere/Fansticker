@@ -25,14 +25,14 @@
         <section>
             <h2>Bienvenue</h2>
             <div class="formulaire">
-                <form action="#" method="post">
+                <form action="../login.php" method="post">
                     <h3>Se connecter</h3>
                     <label for="email" class="label-input">Email</label>
                     <input type="email" class="formulaire_contact" name="email" id="email" placeholder="Adresse email">
                     <label for="password" class="label-input">Mot de passe</label>
                     <input type="text" class="formulaire_contact" name="password" id="password" placeholder="Mot de passe">
                     <div class="btn-div-connexion">
-                        <input type="submit" value="Connexion" class="btn-submit">
+                        <input type="submit" name="login" value="Connexion" class="btn-submit">
                     </div>
                 </form>
             </div>

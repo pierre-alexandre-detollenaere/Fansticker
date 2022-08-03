@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Hôte : 127.0.0.1:3306
--- Généré le : mar. 02 août 2022 à 15:39
+-- Généré le : mer. 03 août 2022 à 08:01
 -- Version du serveur : 8.0.27
 -- Version de PHP : 8.0.13
 
@@ -29,7 +29,7 @@ SET time_zone = "+00:00";
 
 DROP TABLE IF EXISTS `message`;
 CREATE TABLE IF NOT EXISTS `message` (
-  `message_id` bigint UNSIGNED NOT NULL AUTO_INCREMENT,
+  `message_id` bigint UNSIGNED NOT NULL,
   `email` varchar(255) NOT NULL,
   `firstname` varchar(40) DEFAULT NULL,
   `name` varchar(40) DEFAULT NULL,
@@ -40,30 +40,17 @@ CREATE TABLE IF NOT EXISTS `message` (
 -- --------------------------------------------------------
 
 --
--- Structure de la table `order`
+-- Structure de la table `orders`
 --
 
-DROP TABLE IF EXISTS `order`;
-CREATE TABLE IF NOT EXISTS `order` (
-  `order_id` bigint UNSIGNED NOT NULL AUTO_INCREMENT,
-  `user_id` bigint UNSIGNED NOT NULL,
-  `amount` decimal(10,0) NOT NULL,
-  PRIMARY KEY (`order_id`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
-
--- --------------------------------------------------------
-
---
--- Structure de la table `order_sticker`
---
-
-DROP TABLE IF EXISTS `order_sticker`;
-CREATE TABLE IF NOT EXISTS `order_sticker` (
-  `order_id` bigint NOT NULL,
-  `sticker_id` bigint NOT NULL,
-  `quantity` int UNSIGNED NOT NULL,
-  PRIMARY KEY (`order_id`,`sticker_id`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+DROP TABLE IF EXISTS `orders`;
+CREATE TABLE IF NOT EXISTS `orders` (
+  `id` int NOT NULL,
+  `id_user` int NOT NULL,
+  `id_product` int NOT NULL,
+  `qty` int NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
 -- --------------------------------------------------------
 
@@ -73,15 +60,14 @@ CREATE TABLE IF NOT EXISTS `order_sticker` (
 
 DROP TABLE IF EXISTS `sticker`;
 CREATE TABLE IF NOT EXISTS `sticker` (
-  `sticker_id` bigint UNSIGNED NOT NULL AUTO_INCREMENT,
+  `sticker_id` bigint UNSIGNED NOT NULL,
   `name` varchar(40) NOT NULL,
   `price` decimal(10,0) UNSIGNED NOT NULL,
   `width` int UNSIGNED NOT NULL,
   `height` int UNSIGNED NOT NULL,
   `image` varchar(255) NOT NULL,
-  `categorie` varchar(30) NOT NULL,
-  PRIMARY KEY (`sticker_id`)
-) ENGINE=InnoDB AUTO_INCREMENT=41 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+  `categorie` varchar(30) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 
 --
 -- Déchargement des données de la table `sticker`
@@ -137,15 +123,14 @@ INSERT INTO `sticker` (`sticker_id`, `name`, `price`, `width`, `height`, `image`
 
 DROP TABLE IF EXISTS `user`;
 CREATE TABLE IF NOT EXISTS `user` (
-  `user_id` bigint UNSIGNED NOT NULL AUTO_INCREMENT,
+  `user_id` bigint UNSIGNED NOT NULL,
   `firstname` varchar(40) NOT NULL,
   `name` varchar(40) NOT NULL,
   `email` varchar(255) NOT NULL,
   `password` varchar(60) NOT NULL,
   `address` varchar(255) DEFAULT NULL,
   `postal_code` varchar(20) DEFAULT NULL,
-  `city` varchar(50) DEFAULT NULL,
-  PRIMARY KEY (`user_id`)
+  `city` varchar(50) DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 COMMIT;
 
